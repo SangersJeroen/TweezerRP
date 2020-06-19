@@ -1,44 +1,87 @@
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
+from scipy.optimize import curve_fit as cv
 
 matplotlib.rcParams['figure.dpi']   = 150
 matplotlib.rcParams['font.family']  = "serif"
 
+def fit_func(x, a, b):
+    return a*x+b
+
 #------BEAD MEASURMENT----------------------#
-bead_power      = [0, 10, 20, 30, 40, 40]
-bead_x_stiff    = [2.3652e-5, 2.4569e-7, 1.665e-5, 8.3591e-7, 1.9969e-5, 9.6086e-5]
-bead_y_stiff    = [8.2974e-5, 2.9425e-7, 1.6591e-5, 9.7104e-7, 1.7268e-5, 8.9602e-5]
+bead_power      = np.asarray([0, 10, 20, 30, 40, 40])
+bead_x_stiff    = np.asarray([2.3652e-5, 2.4569e-7, 1.665e-5, 8.3591e-7, 1.9969e-5, 9.6086e-5])
+bead_y_stiff    = np.asarray([8.2974e-5, 2.9425e-7, 1.6591e-5, 9.7104e-7, 1.7268e-5, 8.9602e-5])
 bead_t_stiff    = np.sqrt( np.asarray(bead_x_stiff)**2 + np.asarray(bead_y_stiff)**2 )
+bead_x_err = bead_x_stiff/10
+bead_y_err = bead_y_stiff/10
+bead_t_err = np.sqrt( bead_x_err**2 + bead_y_err**2)
+
+#------FUNCTION FIT-------------------------#
+param_b_x, trash = cv(fit_func, bead_power, bead_x_stiff)
+param_b_y, trash = cv(fit_func, bead_power, bead_y_stiff)
+param_b_t, trash = cv(fit_func, bead_power, bead_t_stiff)
+
 
 #------TRAP MEASURMENT----------------------#
-trap_power      = [0, 5, 10, 20, 30, 40]
-trap_x_stiff    = [3.6463e-7, 8.2428e-5, 0.00010879, 0.00030305, 0.00061455, 0.00075512]
-trap_y_stiff    = [5.55e-7, 4.1822e-5, 2.5336e-5, 0.00011004, 0.00016901, 0.00025401]
+trap_power      = np.asarray([0, 5, 10, 20, 30, 40])
+trap_x_stiff    = np.asarray([3.6463e-7, 8.2428e-5, 0.00010879, 0.00030305, 0.00061455, 0.00075512])
+trap_y_stiff    = np.asarray([5.55e-7, 4.1822e-5, 2.5336e-5, 0.00011004, 0.00016901, 0.00025401])
 trap_t_stiff    = np.sqrt( np.asarray(trap_x_stiff)**2 + np.asarray(trap_y_stiff)**2 )
+trap_x_err = trap_x_stiff/10
+trap_y_err = trap_y_stiff/10
+trap_t_err = np.sqrt( trap_x_err**2 + trap_y_err**2)
 
-plt.close()
-plt.plot(bead_power, bead_x_stiff, label=r"$k_x$", marker=".")
-plt.plot(bead_power, bead_y_stiff, label=r"$k_y$", marker=".")
-plt.plot(bead_power, bead_t_stiff, label=r"$k_{tot}$", marker=".")
+#------FUNCTION FIT-------------------------#
+param_t_x, cov_t_x = cv(fit_func, trap_power, trap_x_stiff, sigma=trap_x_err)
+param_t_y, cov_t_y = cv(fit_func, trap_power, trap_y_stiff, sigma=trap_y_err)
+param_t_t, cov_t_t = cv(fit_func, trap_power, trap_t_stiff, sigma=trap_t_err)
+
+
+matplotlib.rcParams['lines.linestyle']=''
+
+X_b = np.linspace(np.min(bead_power),np.max(bead_power), 50)
+
+plt.errorbar(bead_power, bead_y_stiff, yerr=bead_y_err, fmt='', label=r"$k_y$", marker=".", color='black')
+plt.errorbar(bead_power, bead_x_stiff, yerr=bead_x_err, fmt='', label=r"$k_x$", marker=".", color='red')
+plt.errorbar(bead_power, bead_t_stiff, yerr=bead_t_err, fmt='', label=r"$k_{tot}$", marker=".", color='blue')
+
+plt.plot(X_b, fit_func(X_b, *param_b_y), linestyle='--', color='black')
+plt.plot(X_b, fit_func(X_b, *param_b_x), linestyle='--', color='red')
+plt.plot(X_b, fit_func(X_b, *param_b_t), linestyle='--', color='blue')
+
+
 plt.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
 plt.xlabel(r'Beam output power [$mW$]')
 plt.ylabel(r"Stiffness [$pN/nm$]")
 plt.gcf().set_size_inches((5,4))
 plt.subplots_adjust(left=0.14, bottom=0.14, right=0.99)
-plt.semilogy()
+#plt.semilogy()
 plt.legend()
-plt.show()
-
+plt.savefig('plots/beam.png',dpi=200)
 plt.close()
-plt.scatter(trap_power, trap_x_stiff, label=r"$k_x$", marker=".", color='black')
-plt.scatter(trap_power, trap_y_stiff, label=r"$k_y$", marker=".", color='red')
-plt.scatter(trap_power, trap_t_stiff, label=r"$k_{tot}$", marker=".", color='blue')
+
+
+
+matplotlib.rcParams['lines.linestyle']=''
+
+X_t = np.linspace(np.min(trap_power),np.max(trap_power), 50)
+
+plt.errorbar(trap_power, trap_x_stiff, yerr=trap_x_err, fmt="", label=r"$k_x$", marker=".", color='black')
+plt.errorbar(trap_power, trap_y_stiff, yerr=trap_y_err, fmt="", label=r"$k_y$", marker=".", color='red')
+plt.errorbar(trap_power, trap_t_stiff, yerr=trap_t_err, fmt="", label=r"$k_{tot}$", marker=".", color='blue')
+
+plt.plot(X_t, fit_func(X_t, *param_t_x), linestyle='--', color='black')
+plt.plot(X_t, fit_func(X_t, *param_t_y), linestyle='--', color='red')
+plt.plot(X_t, fit_func(X_t, *param_t_t), linestyle='--', color='blue')
+
+
 plt.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
 plt.xlabel(r'Beam output power [$mW$]')
 plt.ylabel(r"Stiffness [$pN/nm$]")
 plt.gcf().set_size_inches((5,4))
 plt.subplots_adjust(left=0.14, bottom=0.14, right=0.99)
-plt.semilogy()
+#plt.semilogy()
 plt.legend()
-plt.show()
+plt.savefig('plots/trap.png',dpi=200)
