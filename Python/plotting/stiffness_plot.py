@@ -6,8 +6,8 @@ from scipy.optimize import curve_fit as cv
 matplotlib.rcParams['figure.dpi']   = 150
 matplotlib.rcParams['font.family']  = "serif"
 
-def fit_func(x, a, b):
-    return a*x+b
+def fit_func(x, a):
+    return a*x
 
 #------BEAD MEASURMENT----------------------#
 bead_power      = np.asarray([0, 10, 20, 30, 40, 40])
@@ -18,11 +18,12 @@ bead_x_err = bead_x_stiff/10
 bead_y_err = bead_y_stiff/10
 bead_t_err = np.sqrt( bead_x_err**2 + bead_y_err**2)
 
-#------FUNCTION FIT-------------------------#
-param_b_x, trash = cv(fit_func, bead_power, bead_x_stiff)
-param_b_y, trash = cv(fit_func, bead_power, bead_y_stiff)
-param_b_t, trash = cv(fit_func, bead_power, bead_t_stiff)
+to_fit_total = np.sqrt(  np.asarray([1.665e-5, 1.9969e-5, 9.6086e-5])**2 + np.asarray([1.6591e-5, 1.7268e-5, 8.9602e-5]))
 
+#------FUNCTION FIT-------------------------#
+param_b_x, trash = cv(fit_func, np.asarray([20, 40, 40]), np.asarray([1.665e-5, 1.9969e-5, 9.6086e-5]) )
+param_b_y, trash = cv(fit_func, np.asarray([20, 40, 40]), np.asarray([1.6591e-5, 1.7268e-5, 8.9602e-5]) )
+param_b_t, trash = cv(fit_func, np.asarray([20, 40, 40]), to_fit_total)
 
 #------TRAP MEASURMENT----------------------#
 trap_power      = np.asarray([0, 5, 10, 20, 30, 40])
@@ -47,9 +48,14 @@ plt.errorbar(bead_power, bead_y_stiff, yerr=bead_y_err, fmt='', label=r"$k_y$", 
 plt.errorbar(bead_power, bead_x_stiff, yerr=bead_x_err, fmt='', label=r"$k_x$", marker=".", color='red')
 plt.errorbar(bead_power, bead_t_stiff, yerr=bead_t_err, fmt='', label=r"$k_{tot}$", marker=".", color='blue')
 
+Y_1 = fit_func(X_b, *param_b_y)
+Y_2 = fit_func(X_b, *param_b_x)
+Y_3 = fit_func(np.linspace(20,40), *param_b_t)
+
+
 plt.plot(X_b, fit_func(X_b, *param_b_y), linestyle='--', color='black')
 plt.plot(X_b, fit_func(X_b, *param_b_x), linestyle='--', color='red')
-plt.plot(X_b, fit_func(X_b, *param_b_t), linestyle='--', color='blue')
+#plt.plot(np.linspace(20,40), Y_3, linestyle='--', color='blue')
 
 
 plt.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
