@@ -8,6 +8,18 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\structure.tex
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\structure.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\british.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\british.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
@@ -321,6 +333,57 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\xcharter\XCharter-Roman-tlf-t1
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Roman-tlf-t1--base.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Roman-tlf-t1.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Bold-tlf-t1.tfm
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\main.toc
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\main.toc
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Bold-tlf-t1.tfm
 OUTPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\main.toc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\xcharter\XCharter-Bold-tlf-t1.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Bold-tlf-t1--base.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\xcharter\XCharter-Bold-tlf-t1.vf
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Bold-tlf-t1--base.tfm
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\abstract.tex
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\abstract.tex
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\introduction.tex
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\introduction.tex
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\experimental_method.tex
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\experimental_method.tex
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\results.tex
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\results.tex
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Roman-tlf-t1.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Bold-tlf-t1.tfm
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\beam.png
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\beam.png
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\beam.png
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\beam.png
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\beam.png
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\trap.png
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\trap.png
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\trap.png
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\trap.png
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\trap.png
+INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\xcharter\XCharter-Bold-tlf-t1.vf
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Bold-tlf-t1--base.tfm
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\conclusion.tex
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\conclusion.tex
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\main.bbl
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\main.bbl
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\appendix.tex
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\appendix.tex
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\main.aux
+INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\xcharter\xch_uy5hgr.enc
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\xcharter\XCharter-Bold.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\xcharter\XCharter-Bold.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\xcharter\XCharter-Roman.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\xcharter\XCharter-Roman.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
