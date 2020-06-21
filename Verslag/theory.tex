@@ -1,0 +1,55 @@
+\Section{Theory}
+
+ the optical tweezers technique was used in the experiment that corresponds with the data that is used in this report. The basic principles of optical tweezers and the theory for further calculations is described in this section. \
+\
+
+\subsection{Optical trapping}
+To understand the working principle of optical tweezers we consider a spherical dielectric particle, a bead, in a coherent light beam with a symmetrical intensity gradient such as in figure \ref{fig_optic_trap_1}. The light beam will exert a force on the bead in the direction of the highest light intensity of the gradient. To understand this, we need to consider two situations. For the situation in which the dimensions of the bead are much greater than the wavelength of the light we can apply straight forward ray optics. In the situation where the size of the bead is much smaller than the wavelength we can approximate the bead as a dipole that feels Lorentz force due to a gradient in the electric field. 
+For the situation where the dimensions of the bead are much larger than the wavelength of the light beam, we consider that photons can exert a radiation force on the bead. This force is a result of the momentum that photons carry  and will be directly proportional to the light intensity. We now consider two rays of light that reach the bead symmetrical with respect to its centre. Due to the bead's spherical symmetric shape, the light rays will be refracted by the dielectric particle at the same rate, but in opposite directions (see figure \ref{fig_optic_trap_1}). Both light rays will, given the change in direction of the light and the third law of Newton, exert a force on the bead. The light ray with the higher intensity will, however, exert a greater force. If the intensity gradient is greater in the centre of the light beam, such as in figure \ref{fig_optic_trap_1}, this would lead to a net force pointing in the direction of the symmetry axis of the light beam. This force would trap the bead to the centre on the beam. \
+In the case of a the beam of light being focussed such as in figure \ref{fig_optic_trap_2}, the bead would not only be trapped in the direction perpendicular to the beam axis, but also in the direction of the axis. This is also a result of the change of the refraction of light exerting a force on the bead (see figure \ref{fig_optic_trap_2}). However, to light scattering, the bead is in the axial direction trapped slight behind the waist of the light beam.\cite{Sheavitz} \
+In the situation where the dimensions of the bead are much smaller of than the wavelength of the light beam, we approximate the bead as a perfect dipole. According to Sheavitz (2006) \cite{sheavitz), if we also consider the laser to have a Gaussian intensity profile in the plane perpendicular to propagation, the Lorentz Force is given by:
+
+\begin{equation}
+	F  = (p \cdot \Lambda)E + \frac{1}{c} \frac{d\: p}{dt} \times B
+\end{equation}
+
+For continuous wave lasers, which are commonly used for optical trapping, this can be simplified to:
+
+\begin{equation}
+	\big< F \big>  = \frac{\alpha}{2} \Lambda \big< E^2 \big>
+\end{equation}
+
+Where $\alpha $ is the induced dipole moment of the bead.  \
+Most optical trapping and also the experiment in this report includes beads with the same order of magnitude dimensions as the wavelength of the light beam. The physics of such a system is complicated and somewhat in between the cases explained above. This comprehensive theory will not be discussed in this report. \
+\
+According to Shaevitz (2006), 'for small motions of a bead near the center of an optical trap, the forces acting on the bead approximate a zero rest–length, linear spring at the trapping center.' Therefore, for small motions of the bead, the stored energy in the optical 'spring' is $1/2 k_{trap} <x^2>$ with $k_{trap}$ a constant defining the strength of the optical trap and $<x^2>$ the variance in the motion. According to the equipartition theory, the energy of the Brownian motion of a particle is given by $1/2 k_b T$ with $k_b$ the Boltzmann constant and $T$ the temperature.\cite{Shaevitz} Equating the two energies yields:
+
+\begin{equation}
+	\label{eq_k_trap}
+	k_{trap} = \frac{k_B T}{<x^2>}
+\end{equation}
+
+From this we can conclude that by following the position of the bead over time, it is possible to find the the value of $k_{trap}$. \
+In the latter definition of $k_{trap}$, the 3 dimensions of real life are not taken into account. In this report we will only consider the trap constants in the plane perpendicular to the propagation direction of the laser beam. This plane will in this report be addressed as the plane of interest, POI. For the POI we can consider two definitions for $k_{trap}$. We define $k_{trap,r}$ as the 'average' trap constant and is calculated using only the motion of the bead in the radial direction. $k_{trap,r}$ gives a good indication of the force in any arbitrary direction in the POI. It does, however, ignore the shape of the probability distribution of the bead. In the case where the potential well would be elongated such as in figure \ref{fig_ellipse}, the values for $ <x^2> $ and therefore also $k_{trap}$ can differ depending on the direction. We define the trap constant in an arbitrary direction as $k_{trap,i}$. Note that this is defined as a line in the POI which cuts the expectation value of the bead. To find the value for $k_{trap,i}$ we first realize that for realistic laser beams that are used for optical trapping, we expect a 2-dimensional gaussian intensity profile in the POI \cite{sheavitz}. The shape of this gaussian profile can be described by a 2 dimensional covariance matrix. The iso-contours and therefore also the variance for such 2-dimensional gaussians are ellipses with their centre at the expectation value \cite{chuong} (see figure \ref{fig_ellipse}. According to Rojas (2009), the eigenvectors of the covariance matrix point in the direction of the axis of an ellipse describing the variance in the POI. The largest of the two eigenvectors, $\vec{v}_1$, will point in the direction of the major axis and the smallest eigenvector, $\vec{v}_2$, in the direction of the minor axis. The magnitude of the semi-major axis and semi-minor axis, $a$ and $b$ respectively, are given by the eigenvalues corresponding to the eigenvectors.\cite{rojas} \
+In order to find the variance in any arbitrary direction in the POI,  $<x_i^2>$, we use the formula for an ellipse in polar coordinates:
+
+\begin{equation}
+	<x_i^2>( \theta ) = \frac{a \: b}{\sqrt{( b \: cos\theta)^2 + (a \: sin\theta )^2}}
+\end{equation}
+
+Where $\theta$ corresponds to the angle of the direction of interest with respect to the major axis and the ellipse centre as origin. \
+Using equation \ref{eq_k_trap} with the value for $ <x_i^2>$ will yield a correct value for $k_{trap,i}$. 
+
+\subsection{Error calculation}
+
+For this report, since we are not fully acquainted with the set-up and the corresponding error, when no error is specified the error is estimated to be half of the finest scale. For example for a size of 1.34 meter, the error would be 0.005 meter.
+
+If $Y$ is a variable which is a function of $A$,$B$,$C$, ... Then the error of $Y$, $u(Y)$, is given by equation \ref{eq_error}.
+
+\begin{equation}
+	\label{eq_error}
+	u(Y) = \sqrt{\left(u(A) \frac{\partial Y}{\partial A}\right)^2 + \left(u(B) \frac{\partial Y}{\partial B}\right)^2 + \left(u(C) \frac{\partial Y}{\partial C}\right)^2 + ...}
+\end{equation}
+
+
+
