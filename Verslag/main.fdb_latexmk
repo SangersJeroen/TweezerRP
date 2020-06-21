@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1592744374 "main.aux" "main.bbl" "main" 1592744378
+["bibtex main"] 1592744374 "main.aux" "main.bbl" "main" 1592757831
   "C:/Program Files/MiKTeX 2.9/bibtex/bst/bibtex/ieeetr.bst" 1291867944 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
   "bibliography.bib" 1592055657 253 427cb32306442c668e96bde878946913 ""
-  "main.aux" 1592744377 2250 e941e196da68d8f4a723f05fcda49146 "pdflatex"
+  "main.aux" 1592757831 2250 e941e196da68d8f4a723f05fcda49146 "pdflatex"
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1592744375 "c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.tex" "c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.pdf" "main" 1592744378
+["pdflatex"] 1592757828 "c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.tex" "c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.pdf" "main" 1592757831
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/xcharter/xch_uy5hgr.enc" 1566088030 3245 1a602e5c47d185e5d5f34ca2e7098e98 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233955448 1004 54797486969f23fa377b128694d548df ""
@@ -198,24 +198,24 @@
   "C:/Users/Gebruiker/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1573425739 4750625 84bf946dcbd04cb996c58111638d9a26 ""
   "abstract.tex" 1592655088 0 d41d8cd98f00b204e9800998ecf8427e ""
   "appendix.tex" 1592055657 53 6857d5257bc5703855855262d6447732 ""
-  "c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.aux" 1592744377 2250 e941e196da68d8f4a723f05fcda49146 ""
+  "c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.aux" 1592757831 2250 e941e196da68d8f4a723f05fcda49146 ""
   "c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.tex" 1592562843 1410 ceba7c17bf6357e9702d3f85fc724b63 ""
   "conclusion.tex" 1592562824 22 245de1ddfd812537697cf4a85c32749a ""
   "experimental_method.tex" 1592055657 29 5a68236a8fbe0bf5cda5e839d2c872f0 ""
   "figures/beam.png" 1592744076 76797 bc593accdc906405d79c2a6aaa4d5822 ""
   "figures/trap.png" 1592744056 53661 0dc8511842097da5df0101186fab6009 ""
   "introduction.tex" 1592655281 1939 62b24eac9fd67fbc5241da76c2ceb1a0 ""
-  "main.aux" 1592744377 2250 e941e196da68d8f4a723f05fcda49146 "pdflatex"
+  "main.aux" 1592757831 2250 e941e196da68d8f4a723f05fcda49146 "pdflatex"
   "main.bbl" 1592744375 52 0eba253fc001332e731e8aba3f23127b "bibtex main"
   "main.tex" 1592562843 1410 ceba7c17bf6357e9702d3f85fc724b63 ""
-  "main.toc" 1592744377 604 2ab55df477227e6b42d91ad269f9ae6b "pdflatex"
-  "results.tex" 1592744370 4621 1d32a6ced399b491762dc699695781c5 ""
+  "main.toc" 1592757831 604 2ab55df477227e6b42d91ad269f9ae6b "pdflatex"
+  "results.tex" 1592757827 5269 4faf7b1a7df556d84cdbf30957fba896 ""
   "structure.tex" 1592741302 6877 5c9e44a0d9a604620bcae7f8a3ac1068 ""
   "title.tex" 1592055657 664 03c13bd48745a2b780ac474d11dd0d1d ""
   (generated)
-  "main.pdf"
   "main.log"
-  "c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.log"
   "main.toc"
   "c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.pdf"
+  "main.pdf"
+  "c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.log"
   "main.aux"
