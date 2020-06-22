@@ -72,4 +72,28 @@ For the least squares fit a relation of $k=a \cdot P$ was used since it is expec
 
 \clearpage{}
 \subsection{Python program results}
-During this practical we were also tasked with rewriting a MATLAB script in to Python. The piece of script we needed to rewrite was the function that tracks the centre of the bead in the image, this function was comprised of interpolation method and a method that found the symmetry centre of the bead using Fourier transforms. The second part was easily implemented in Python as it was mostly just finding the right Python functions that were equivalent to their MATLAB counterparts. The interpolation function was a lot harder to implement in Python since most of the existing Python interpolation functions did not have the same functionality.
+During this practical we were also tasked with rewriting a MATLAB script in to Python. The piece of script we needed to rewrite was the function that tracks the centre of the bead in the image, this function was comprised of interpolation method and a method that found the symmetry centre of the bead using Fourier transforms. The second part was easily implemented in Python as it was mostly just finding the right Python functions that were equivalent to their MATLAB counterparts. The interpolation function was a lot harder to implement in Python since most of the existing Python interpolation functions did not have the same functionality.\\
+
+As outlined in section \ref{alternate_method} a new method for deriving the trap constants was proposed. This method was implemented in a second different python script to try and show its usefulness. The result speaks for itself, it shows a clear connection between the laser output power and the length of the semi-major and semi-minor axis of the ellipses that encircle the points describing the symmetry centres of the beads. The points were fitted with a function with shape $L_{axis}=a\cdot e^{-b\cdot P}$, this seems to fit well as can be seen in figure \ref{fig:spread-bead-plot} \& \ref{fig:spread-trap-plot}. This also shows that while the trap stiffness seems to increase linearly with the laser power the area of the ellipse in which we expect a bead to be found decreases exponentially with laser power. In the appendix three more plots showing the spread can be seen.
+
+\begin{minipage}{\linewidth}
+    \centering
+    \begin{minipage}[l]{0.45\linewidth}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\linewidth]{figures/axis-dataset2.png}
+            \caption{Semi-major and minor axis of the first dataset plotted and fitted.\\}
+            \label{fig:spread-bead-plot}
+        \end{figure}
+    \end{minipage}
+    \hspace{0.05\linewidth}
+    \begin{minipage}[r]{0.45\linewidth}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\linewidth]{figures/axis-dataset1.png}
+            \caption{Semi-major and minor axis of the second dataset plotted and fitted.\\}
+            \label{fig:spread-trap-plot}
+        \end{figure}
+    \end{minipage}
+
+\end{minipage}

@@ -13,4 +13,4 @@
 \contentsline {section}{\numberline {5}conclusion}{7}% 
 \contentsline {section}{List of references}{8}% 
 \contentsline {section}{\numberline {6}Appendix}{9}% 
-\contentsline {subsection}{\numberline {6.1}}{9}% 
+\contentsline {subsection}{\numberline {6.1}Particle Spread}{9}% 
