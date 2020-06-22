@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.10)  21 JUN 2020 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.10)  22 JUN 2020 21:31
 entering extended mode
 **c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.tex
 (c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.tex
@@ -1437,22 +1437,78 @@ LaTeX Warning: Citation `Velthuis' on page 1 undefined on input line 3.
 
 ) [1
 
-] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\experimental_method.tex) [2] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\results.tex
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 2.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 2.
+] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\theory.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
+ []
+
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 5.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 5.
+
+LaTeX Warning: Reference `fig_optic_trap_1' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Reference `fig_optic_trap_1' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Reference `fig_optic_trap_1' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Reference `fig_optic_trap_2' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Reference `fig_optic_trap_2' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `sheavitz' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `sheavitz' on page 2 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Shaevitz' on page 2 undefined on input line 24.
+
+
+LaTeX Warning: Reference `fig_ellipse' on page 2 undefined on input line 32.
+
+
+LaTeX Warning: Citation `sheavitz' on page 2 undefined on input line 32.
+
+
+LaTeX Warning: Citation `chuong' on page 2 undefined on input line 32.
+
+
+LaTeX Warning: Reference `fig_ellipse' on page 2 undefined on input line 32.
+
+
+LaTeX Warning: Citation `rojas' on page 2 undefined on input line 32.
+
+[2]) [3] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\experimental_method.tex
+<figures/setup.png, id=28, 850.377pt x 398.6895pt>
+File: figures/setup.png Graphic file (type png)
+<use figures/setup.png>
+Package pdftex.def Info: figures/setup.png  used on input line 9.
+(pdftex.def)             Requested size: 250.38564pt x 117.38728pt.
+
+
+LaTeX Warning: Citation `practicum_manual' on page 4 undefined on input line 10.
+
+
+LaTeX Warning: Citation `practicum_manual' on page 4 undefined on input line 10.
+
+) [4 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/setup.png>] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\results.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-<figures/beam.png, id=19, 361.35pt x 267.03764pt>
+<figures/beam.png, id=35, 361.35pt x 267.03764pt>
 File: figures/beam.png Graphic file (type png)
 <use figures/beam.png>
 Package pdftex.def Info: figures/beam.png  used on input line 39.
 (pdftex.def)             Requested size: 204.85846pt x 151.38994pt.
-<figures/trap.png, id=20, 361.35pt x 267.03764pt>
+<figures/trap.png, id=36, 361.35pt x 267.03764pt>
 File: figures/trap.png Graphic file (type png)
 <use figures/trap.png>
 Package pdftex.def Info: figures/trap.png  used on input line 48.
@@ -1472,29 +1528,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
-[3 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/beam.png> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/trap.png>]) [4
+[5 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/beam.png> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/trap.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
-] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\conclusion.tex) [5] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.bbl
+ []
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
+<figures/axis-dataset2.png, id=41, 433.62pt x 289.08pt>
+File: figures/axis-dataset2.png Graphic file (type png)
+<use figures/axis-dataset2.png>
+Package pdftex.def Info: figures/axis-dataset2.png  used on input line 84.
+(pdftex.def)             Requested size: 204.85846pt x 136.57336pt.
+<figures/axis-dataset1.png, id=42, 433.62pt x 289.08pt>
+File: figures/axis-dataset1.png Graphic file (type png)
+<use figures/axis-dataset1.png>
+Package pdftex.def Info: figures/axis-dataset1.png  used on input line 93.
+(pdftex.def)             Requested size: 204.85846pt x 136.57336pt.
+)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 79--54
+[]$[]$
+ []
 
-) [6] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\appendix.tex) [7] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--54
+
+ []
+
+[6
+
+ <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/axis-dataset2.png> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/axis-dataset1.png>] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\conclusion.tex) [7] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.bbl
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 6.
+) [8] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\appendix.tex
+<figures/spread-dataset1.png, id=55, 433.62pt x 289.08pt>
+File: figures/spread-dataset1.png Graphic file (type png)
+<use figures/spread-dataset1.png>
+Package pdftex.def Info: figures/spread-dataset1.png  used on input line 6.
+(pdftex.def)             Requested size: 364.19667pt x 242.80789pt.
+<figures/spread-zoom-dataset1.png, id=56, 433.62pt x 289.08pt>
+File: figures/spread-zoom-dataset1.png Graphic file (type png)
+<use figures/spread-zoom-dataset1.png>
+Package pdftex.def Info: figures/spread-zoom-dataset1.png  used on input line 11.
+(pdftex.def)             Requested size: 364.19667pt x 242.80789pt.
+<figures/spread-dataset2.png, id=57, 433.62pt x 289.08pt>
+File: figures/spread-dataset2.png Graphic file (type png)
+<use figures/spread-dataset2.png>
+Package pdftex.def Info: figures/spread-dataset2.png  used on input line 16.
+(pdftex.def)             Requested size: 364.19667pt x 242.80789pt.
+) [9 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-dataset1.png> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-zoom-dataset1.png>] [10 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-dataset2.png>] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31043 strings out of 492449
- 577101 string characters out of 3129676
- 767531 words of memory out of 3000000
- 34916 multiletter control sequences out of 15000+200000
- 586361 words of font info for 49 fonts, out of 3000000 for 9000
+ 31102 strings out of 492449
+ 578647 string characters out of 3129676
+ 768531 words of memory out of 3000000
+ 34966 multiletter control sequences out of 15000+200000
+ 592723 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,10n,79p,949b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/xcharter/xch_uy5hgr.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Bold.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.pdf (9 pages, 277472 bytes).
+ 76i,10n,79p,2074b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/xcharter/xch_uy5hgr.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Bold.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Italic.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.pdf (12 pages, 1089773 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

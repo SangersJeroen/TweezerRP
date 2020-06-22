@@ -1,11 +1,16 @@
 \babel@toc {british}{}
 \contentsline {section}{Table of contents}{i}% 
 \contentsline {section}{\numberline {1}Introduction}{1}% 
-\contentsline {section}{\numberline {2}Experimental Method}{2}% 
-\contentsline {section}{\numberline {3}Results}{3}% 
-\contentsline {subsection}{\numberline {3.1}Results of the datasets}{3}% 
-\contentsline {subsection}{\numberline {3.2}Python program results}{4}% 
-\contentsline {section}{\numberline {4}conclusion}{5}% 
-\contentsline {section}{List of references}{6}% 
-\contentsline {section}{\numberline {5}Appendix}{7}% 
-\contentsline {subsection}{\numberline {5.1}}{7}% 
+\contentsline {section}{\numberline {2}Theory}{2}% 
+\contentsline {subsection}{\numberline {2.1}Optical trapping}{2}% 
+\contentsline {subsection}{\numberline {2.2}Error calculation}{3}% 
+\contentsline {section}{\numberline {3}Experimental Method}{4}% 
+\contentsline {subsection}{\numberline {3.1}Experimental set-up}{4}% 
+\contentsline {subsection}{\numberline {3.2}Computation}{4}% 
+\contentsline {section}{\numberline {4}Results}{5}% 
+\contentsline {subsection}{\numberline {4.1}Results of the datasets}{5}% 
+\contentsline {subsection}{\numberline {4.2}Python program results}{6}% 
+\contentsline {section}{\numberline {5}conclusion}{7}% 
+\contentsline {section}{List of references}{8}% 
+\contentsline {section}{\numberline {6}Appendix}{9}% 
+\contentsline {subsection}{\numberline {6.1}Particle Spread}{9}% 
