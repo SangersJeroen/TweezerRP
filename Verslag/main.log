@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.10)  22 JUN 2020 21:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.10)  23 JUN 2020 21:27
 entering extended mode
 **c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.tex
 (c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.tex
@@ -1555,42 +1555,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--54
 
 [6
 
- <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/axis-dataset2.png> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/axis-dataset1.png>] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\conclusion.tex) [7] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.bbl
+ <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/axis-dataset2.png> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/axis-dataset1.png>] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\discussion.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 2--56
+
+ []
+
+[7] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+) [8] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.bbl
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 6.
-) [8] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\appendix.tex
-<figures/spread-dataset1.png, id=55, 433.62pt x 289.08pt>
+) [9] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\appendix.tex
+<figures/spread-dataset1.png, id=58, 433.62pt x 289.08pt>
 File: figures/spread-dataset1.png Graphic file (type png)
 <use figures/spread-dataset1.png>
 Package pdftex.def Info: figures/spread-dataset1.png  used on input line 6.
 (pdftex.def)             Requested size: 364.19667pt x 242.80789pt.
-<figures/spread-zoom-dataset1.png, id=56, 433.62pt x 289.08pt>
+<figures/spread-zoom-dataset1.png, id=59, 433.62pt x 289.08pt>
 File: figures/spread-zoom-dataset1.png Graphic file (type png)
 <use figures/spread-zoom-dataset1.png>
 Package pdftex.def Info: figures/spread-zoom-dataset1.png  used on input line 11.
 (pdftex.def)             Requested size: 364.19667pt x 242.80789pt.
-<figures/spread-dataset2.png, id=57, 433.62pt x 289.08pt>
+<figures/spread-dataset2.png, id=60, 433.62pt x 289.08pt>
 File: figures/spread-dataset2.png Graphic file (type png)
 <use figures/spread-dataset2.png>
 Package pdftex.def Info: figures/spread-dataset2.png  used on input line 16.
 (pdftex.def)             Requested size: 364.19667pt x 242.80789pt.
-) [9 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-dataset1.png> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-zoom-dataset1.png>] [10 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-dataset2.png>] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.aux)
+) [10 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-dataset1.png> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-zoom-dataset1.png>] [11 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-dataset2.png>] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31102 strings out of 492449
- 578647 string characters out of 3129676
+ 31105 strings out of 492449
+ 578779 string characters out of 3129676
  768531 words of memory out of 3000000
- 34966 multiletter control sequences out of 15000+200000
+ 34967 multiletter control sequences out of 15000+200000
  592723 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,10n,79p,2074b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/xcharter/xch_uy5hgr.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Bold.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Italic.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.pdf (12 pages, 1089773 bytes).
+Output written on c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.pdf (13 pages, 1093614 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
