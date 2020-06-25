@@ -1,0 +1,16 @@
+\section{Abstract}
+This report contains our findings on methods of finding the trap stiffness of an optical trap or optical tweezer setup and the conversion of an MATLAB data processing script to Python. Optical trapping is a technique in which a small particle is being held in place by a focussed laser beam, commonly used in the field of biophysics.\\
+The trap stiffness in relation to laser output power was determined by photographing a particle in an optical trap multiple times for a set laser power output setting, then repeating this for multiple laser power output settings. The resulting image stacks were processed by an automated MATLAB script that calculates the movement of the centre of mass of the bead and uses this to calculate the restoring force of the optical trap against the Brownian motion of the particle. The resulting trap stiffnesses were then plotted for each laser power output setting. A linear relation between the trap stiffness and the laser output was fitted, the results are shown below.\\
+Due to the current Corona-virus outbreak we were unable to do the optical trap measurements ourselves so to make up for this we were also tasked with rewriting part of a MATLAB script in Python. Whilst doing this a problem presented itself, there is no efficient way to interpolate a non-evenly spaced data grid in Python. With no knowledge of how to write such a function ourselves we opted to use a function that was able to interpolate at one point at a time which resulted in a slowdown of the data processing speed and allowed errors to creep in. The two other functions that had to be rewritten were the subpixel interpolation function and the symmetry centre finding function, both of these our now working in Python. The presented Python file is therefore capable of roughly following the symmetry centre of the bead in an optical trap.\\
+
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|l|l|l|}
+        \hline
+        coefficient for & $a_x$ {[}$pN/(nm\cdot mW)${]} & $a_y$ {[}$pN/(nm \cdot mW)${]} & $a_{tot}$ {[}$pN/(nm \cdot mW)${]} \\ \hline
+        dataset 1       & $1.382\cdot 10^{-6}$          & $1.280 \cdot 10^{-6}$          & $1.740 \cdot 10^{-4}$              \\ \hline
+        dataset 2       & $1.478 \cdot 10^{-5}$         & $3.974 \cdot 10^{-6}$          & $1.551 \cdot 10^{-5}$              \\ \hline
+    \end{tabular}
+    \caption{The results of the linear fits for the trap stiffness as a function of laser output power. The shown $a$-factors satisfy the least squares fit of the function: $k_i = a_i \cdot P$ }
+\end{table}
