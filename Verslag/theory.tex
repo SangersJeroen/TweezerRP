@@ -76,23 +76,62 @@ Note that the latter definition of the variance is different than just projectin
 
 For this report, since we are not fully acquainted with the set-up and the corresponding error, when no error is specified the error is estimated to be half of the finest scale. For example for a size of 1.34 meter, the error would be 0.005 meter.
 
-If $Y$ is a variable which is a function of $A$,$B$,$C$, ... Then the error of $Y$, $u(Y)$, is given by equation \ref{eq_error}.
+If $Y$ is a variable which is a function of $A$,$B$,$C$, ... Then the error of $Y$, $u_Y$, is given by equation \ref{eq_error}.
 
 \begin{equation}
 	\label{eq_error}
-	u(Y) = \sqrt{\left(u(A) \frac{\partial Y}{\partial A}\right)^2 + \left(u(B) \frac{\partial Y}{\partial B}\right)^2 + \left(u(C) \frac{\partial Y}{\partial C}\right)^2 + ...}
+	u_Y = \sqrt{\left(u_A \frac{\partial Y}{\partial A}\right)^2 + \left(u_B \frac{\partial Y}{\partial B}\right)^2 + \left(u_C \frac{\partial Y}{\partial C}\right)^2 + ...}
 \end{equation}
 
-Using the latter equation we find that the error in the average position, $u(\bar{x})$ is given by:
+Using the latter equation we find that the error in the average position, $u_{\bar{x}}$ is given by:
 
 \begin{equation}
-	u(\bar{x}) =  \frac{ \sqrt{ \sum_{i=1}^n u(x_i)^2}}{n} 
+	\label{eq_u_mean}
+	u_{\bar{x}} =  \frac{ \sqrt{ \sum_{i=1}^n u_{x_i}^2}}{n} 
 \end{equation}
 
-Since $ \langle x^2 \rangle $ is given by the squared of the distance to the average position we find that the error in the variance, $u( \langle x^2 \rangle ) $ is given by:
+Since $ \langle x^2 \rangle $ is given by the average of the squared of the distance to the average position we find that the error in the variance, $u_{ \langle x^2 \rangle } $ is given by:
 
 \begin{equation}
-	u( \langle x^2 \rangle ) =  \frac{ \sqrt{ 4 \: \sum_1^n    \left( u(\bar{x})^2 + u(x_i)^2 \right) \left( \bar{x} - x_i \right)^2}}{n}
+	\label{eq_u_var}
+	u_{ \langle x^2 \rangle }=  \sqrt{ \frac{ 4 \: \sum_{i=1}^n    \left( u_{\bar{x}}^2 + u_{x_i}^2 \right) \left( \bar{x} - x_i \right)^2}{n^2}} 
+\end{equation}
+
+For large values of $n$ we can neglect the $ u_{\bar{x}}^2$ term. Therefore we find:
+
+\begin{equation}
+	\label{eq_u_var_approx}
+	u_{ \langle x^2 \rangle } \approx  \sqrt{ \frac{ 4 \: \sum_{i=1}^n    u_{x_i}^2  \left( \bar{x} - x_i \right)^2}{n^2}} 
+\end{equation}
+
+If $ u_{x_i}$ is contant we can rewrite this as:
+
+\begin{equation}
+	\label{eq_u_var_constant}
+	u_{ \langle x^2 \rangle } \approx  \sqrt{  4 \:     u_{x_i}^2  \langle x^2 \rangle } 
+\end{equation}
+
+ 
+
+Using equation \ref{eq_k_trap} in equation \ref{eq_error} we find that the error in the trap constant, $u_{k_{trap}}$, is given by:
+
+\begin{equation}
+	\label{eq_u_k}
+	u_{k_{trap}} = \frac{u_{ \langle x^2 \rangle}k_B T}{ \langle x^2 \rangle ^2}
+\end{equation}
+
+In the case of a constant value of $ u_{x_i}$ we can use equation \ref{eq_u_var_constant} to find that:
+
+\begin{equation}
+	\label{eq_u_k_constant}
+	u_{k_{trap}} = 2 \: u_{x_i} k_B T  \langle x^2 \rangle ^{- \frac{3}{2}}
+\end{equation}
+
+Using equation \ref{eq_k_trap} we can rewrite this as:
+
+\begin{equation}
+	\label{eq_u_k_constant_}
+	u_{k_{trap}} = 2 \: u_{x_i} (k_B T)^{\frac{1}{2}}  k_{trap} ^{\frac{3}{2}}
 \end{equation}
 
 
