@@ -39,7 +39,10 @@ Where $ p = \alpha E $ is the dipole field, $\alpha $ is the polarizability, $E$
 
 This force is pointing towards the centre of the laser beam. \
 \ 
-Most optical trapping and also the experiment in this report includes beads with the same order of magnitude dimensions as the wavelength of the light beam. The physics of such a system is complicated and somewhat in between the cases explained above. This comprehensive theory will not be discussed in this report. \
+Most optical trapping and also the experiment in this report includes beads with the same order of magnitude dimensions as the wavelength of the light beam. The physics of such a system is complicated and somewhat in between the cases explained above. This comprehensive theory will not be discussed in this report. However, from the latter derivations we can conclude that the trapping force is directly proportional with the laser intensity. \
+
+\subsection{Trap constant derivation}
+\label{trap_constant}
 \
 According to Shaevitz (2006), 'for small motions of a bead near the center of an optical trap, the forces acting on the bead approximate a zero rest–length, linear spring at the trapping center.' Therefore, for small motions of the bead, the stored energy in the optical 'spring' is $1/2 k_{trap} \langle x^2 \rangle $ with $k_{trap}$ a constant defining the strength of the optical trap and $ \langle x^2 \rangle $ the variance in the motion. According to the equipartition theory, the energy of the Brownian motion of a particle is given by $\frac{1}{2} k_b T $ with $ k_b $ the Boltzmann constant and $T$ the temperature.\cite{shaevitz} Equating the two energies yields:
 
@@ -66,7 +69,7 @@ In order to find the variance in any arbitrary direction in the POI,  $ \langle 
 \end{equation}
 
 Where $\theta$ corresponds to the angle of the direction of interest with respect to the major axis and the ellipse centre as origin. (see figure \ref{fig_ellipse}) \
-Note that the latter definition of the variance is different than just projecting each point on an axis and subsequently calculating the variance. The difference between the two methods is clearly visible in figure \ref{fig_ellipse} where $\langle x^2 \rangle _{real}$ is much smaller than $\langle x^2 \rangle _{proj}$. We can conclude frwom this, that when the position distribution is not symmetrical in the x- and y-direction, calculation of $k_{trap,x}$ or $k_{trap,y}$ without taking into account the covariance could give inaccurate results. Using equation \ref{eq_k_trap} with the value for $  \langle x_i^2 \rangle $ should yield better values for $k_{trap,i}$. 
+Note that the latter definition of the variance is different than just projecting each point on an axis and subsequently calculating the variance. The difference between the two methods is clearly visible in figure \ref{fig_ellipse} where $\langle x^2 \rangle _{real}$ is much smaller than $\langle x^2 \rangle _{proj}$. We can conclude from this, that when the position distribution is not symmetrical in the x- and y-direction, calculation of $k_{trap,x}$ or $k_{trap,y}$ without taking into account the covariance could give inaccurate results. Using equation \ref{eq_k_trap} with the value for $  \langle x_i^2 \rangle $ should yield better values for $k_{trap,i}$. 
 
 
 \subsection{Error calculation}
@@ -83,7 +86,7 @@ If $Y$ is a variable which is a function of $A$,$B$,$C$, ... Then the error of $
 Using the latter equation we find that the error in the average position, $u(\bar{x})$ is given by:
 
 \begin{equation}
-	u(\bar{x}) =  \frac{ \sqrt{ \sum_1^n u(x_i)^2}}{n} 
+	u(\bar{x}) =  \frac{ \sqrt{ \sum_{i=1}^n u(x_i)^2}}{n} 
 \end{equation}
 
 Since $ \langle x^2 \rangle $ is given by the squared of the distance to the average position we find that the error in the variance, $u( \langle x^2 \rangle ) $ is given by:

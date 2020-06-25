@@ -1,7 +1,6 @@
 \section{Results}
 \subsection{Results of the datasets}
-The results of the experiment were gathered by taking a 1000 photos of the particles in the trap and for each of the laser power output ($P$) settings and then using an automated MATLAB script to track the location of the centre of the bead for all of the 1000 photos and all of the laser output power settings. Using this information the script was able to calculate the trap stiffness in the $x$ and $y$ direction denoted as $k_x$ and $k_y$ respectively.\\
-The script was not perfect, for most of the image stacks of the first dataset the script was not able to track the centre of the bead, this was the result of a piece of debris in the trap which was like the bead circularly shaped with rings around it, this threw the program off. The corresponding data points have been entered in the table \ref{tab:first-results} below but the points were not used for fitting a line to the dataset. The second dataset was much better and did not have any faulty measurements, its values are shown in table \ref{tab:second-results}.\\
+The results of the MATLAB code calculating $k_{trap,x}$ and $k_{trap,y}$ for the two data sets are presented in table \ref{tab:first-results}. Since the MATLAB code failed to track the bead for some of the measurements in the first data set, not all values are used for fitting. The second dataset was much better and did not have any faulty measurements, its values are shown in table \ref{tab:second-results}.\\
 
 \vspace{-.2cm}
 \begin{table}[h!]
@@ -9,8 +8,8 @@ The script was not perfect, for most of the image stacks of the first dataset th
 \begin{tabular}{|l|l|l|l|l|l|l|}
 \hline
 Laser Power {[}$mW${]} & 0*         & 10*        & 20        & 30*        & 40         & 40        \\ \hline
-$k_x$    {[}$pN/nm${]}        & $2.36 \cdot 10^{-5}$ &$ 2.45 \cdot 10^{-7}$ & $1.60\cdot 10^{-5}$  & $8.35\cdot 10^{-7}$ & $1.99\cdot 10^{-5}$  & $9.60\cdot 10^{-5}$ \\ \hline
-$k_y$     {[}$pN/nm${]}       & $8.29 \cdot 10^{-5}$ &$ 2.94\cdot 10^{-7}$ & $1.65\cdot 10^{-5}$ & $9.71\cdot 10^{-7}$ & $1.72\cdot 10^{-5}$ & $8.96\cdot 10^{-5}$ \\ \hline
+$k_{trap,x}$    {[}$pN/nm${]}        & $2.36 \cdot 10^{-5}$ &$ 2.45 \cdot 10^{-7}$ & $1.60\cdot 10^{-5}$  & $8.35\cdot 10^{-7}$ & $1.99\cdot 10^{-5}$  & $9.60\cdot 10^{-5}$ \\ \hline
+$k_{trap,y}$     {[}$pN/nm${]}       & $8.29 \cdot 10^{-5}$ &$ 2.94\cdot 10^{-7}$ & $1.65\cdot 10^{-5}$ & $9.71\cdot 10^{-7}$ & $1.72\cdot 10^{-5}$ & $8.96\cdot 10^{-5}$ \\ \hline
 \end{tabular}
 \caption{Results of the first dataset. The values are truncated to two decimal places. * denotes a faulty measurement}
 \label{tab:first-results}
@@ -55,14 +54,14 @@ $k_y$     {[}$pN/nm${]}       & $8.29 \cdot 10^{-5}$ &$ 2.94\cdot 10^{-7}$ & $1.
 \\
 
 The data shown above in tables \ref{tab:first-results} and \ref{tab:second-results} are plotted in figures \ref{fig:bead-plot} and \ref{fig:trap-plot} re\-spectively. In the plots the in\-divi\-dual data points and their cor\-responding error flags are shown as well as the least squares fit of these data points for the $k_x$, $k_y$ and $k_{tot}$ values. The fit of the $k_{tot}$ values is plotted on a secondary axis.\\
-For the least squares fit a relation of $k=a \cdot P$ was used since it is expected that for zero laser output power there would not be a restoring force acting on the particle. The resulting coefficients are shown below in table \ref{tab:fit-results}.\\
+The resulting values of $\alpha$ for the least squares fit to the function $k_{trap}= \alpha \cdot P$  are shown below in table \ref{tab:fit-results}.\\
 
 \vspace{-0.5cm}
 \begin{table}[h!]
     \centering
     \begin{tabular}{|l|l|l|l|}
         \hline
-        coefficient for & $a_x$ {[}$pN/(nm\cdot mW)${]} & $a_y$ {[}$pN/(nm \cdot mW)${]} & $a_{tot}$ {[}$pN/(nm \cdot mW)${]} \\ \hline
+        coefficient for & $\alpha_x$ {[}$pN/(nm\cdot mW)${]} & $\alpha_y$ {[}$pN/(nm \cdot mW)${]} & $\alpha_{tot}$ {[}$pN/(nm \cdot mW)${]} \\ \hline
         dataset 1       & $1.382\cdot 10^{-6}$          & $1.280 \cdot 10^{-6}$          & $1.740 \cdot 10^{-4}$              \\ \hline
         dataset 2       & $1.478 \cdot 10^{-5}$         & $3.974 \cdot 10^{-6}$          & $1.551 \cdot 10^{-5}$              \\ \hline
     \end{tabular}
@@ -72,9 +71,11 @@ For the least squares fit a relation of $k=a \cdot P$ was used since it is expec
 
 \clearpage{}
 \subsection{Python program results}
-During this practical we were also tasked with rewriting a MATLAB script in to Python. The piece of script we needed to rewrite was the function that tracks the centre of the bead in the image, this function was comprised of interpolation method and a method that found the symmetry centre of the bead using Fourier transforms. The second part was easily implemented in Python as it was mostly just finding the right Python functions that were equivalent to their MATLAB counterparts. The interpolation function was a lot harder to implement in Python since most of the existing Python interpolation functions did not have the same functionality.\\
+During this practical we were also tasked with rewriting a MATLAB script in to Python. The piece of script we needed to rewrite was the function that tracks the centre of the bead in the image, this function was comprised of interpolation method and a method that found the symmetry centre of the bead using Fourier transforms. The second part was easily implemented in Python as it was mostly just finding the right Python functions that were equivalent to their MATLAB counterparts. The interpolation function was a lot harder to implement in Python since most of the existing Python interpolation functions did not have the same functionality. The documentation of this part of the practical can be found in the appendix\\
 
-As outlined in section \ref{alternate_method} a new method for deriving the trap constants was proposed. This method was implemented in a second different python script to try and show its usefulness. The result speaks for itself, it shows a clear connection between the laser output power and the length of the semi-major and semi-minor axis of the ellipses that encircle the points describing the symmetry centres of the beads. The points were fitted with a function with shape $L_{axis}=a\cdot e^{-b\cdot P}$, this seems to fit well as can be seen in figure \ref{fig:spread-bead-plot} \& \ref{fig:spread-trap-plot}. This also shows that while the trap stiffness seems to increase linearly with the laser power the area of the ellipse in which we expect a bead to be found decreases exponentially with laser power. In the appendix three more plots showing the spread can be seen.
+As outlined in the section \ref{trap_constant} a method for deriving the trap constants was proposed that differs from the one from the MATLAB script. This method was implemented in a second different python script to try and show its usefulness. This python script can be found in the appendix.\
+\
+ The result speaks for itself, it shows a clear connection between the laser output power and the length of the semi-major and semi-minor axis of the ellipses that encircle the points describing the symmetry centres of the beads. The points were fitted with a function with shape $L_{axis}=a\cdot e^{-b\cdot P}$, this seems to fit well as can be seen in figure \ref{fig:spread-bead-plot} \& \ref{fig:spread-trap-plot}. This also shows that while the trap stiffness seems to increase linearly with the laser power the area of the ellipse in which we expect a bead to be found decreases exponentially with laser power. In the appendix three more plots showing the spread can be seen.
 
 \begin{minipage}{\linewidth}
     \centering
