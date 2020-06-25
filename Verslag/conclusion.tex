@@ -1,8 +1,9 @@
 \section{conclusion}
-The primary goal of this report was to find a relation between the trap stiffness of an optical trap and the output power of the laser used in that optical trap. The predicted linear relation was measured and found the results are shown in the table below.\\
-Rewriting the MATLAB script using Python was a partial success, the symmetry centre finding function and the subpixel interpolation function were successfully implemented in Python but the tracking function currently uses a slow and not very useful interpolation method which results in an undesirable offset and delay in the predicted symmetry centre. With a properly functioning interpolation function the python script will without a doubt yield the right results.\\
-A second method for deriving the trap stiffness was also tried to be implemented. Using the spread of the symmetry centres of the datasets to try and create an covariance matrix. We were unable to finish this method but were able to show that there is indeed a relation between the ellipse size and the laser power output. This relation was found to be an exponential.\\
+The predicted direct proportionality between the laser power and the trap constant could be observed. However, given the distance from the data to the best fit, the values for the slope coefficient is not of much use.\\
+Rewriting the MATLAB script using Python was a partial success, the symmetry centre finding function and the subpixel interpolation function were successfully implemented in Python but the tracking function currently uses a slow and not very useful interpolation method which results in an undesirable offset and delay in the predicted symmetry centre. With a properly functioning interpolation function the python script would probably yield s similar result as the MATLAB script.\\
+Using the method described in the theory, the values for the semi-major and semi-minor axis of the covariance ellipse were found for both data sets. The values match the theoretical inverse proportionality with respect to the laser power. The difference between the values for the major and minor axis compared to the MATLAB script shows the advantage of calculation of the trap constant using the covariance matrix. For this method incorporates the shape and direction of the optical trap.\\
 
+\begin{comment}
 
 \vspace{-0.5cm}
 \begin{table}[h!]
@@ -15,3 +16,5 @@ A second method for deriving the trap stiffness was also tried to be implemented
     \end{tabular}
     \caption{The results of the linear fits for the trap stiffness as a function of laser output power. The shown $a$-factors satisfy the least squares fit of the function: $k_i = a_i \cdot P$ }
 \end{table}
+
+\end{comment}
