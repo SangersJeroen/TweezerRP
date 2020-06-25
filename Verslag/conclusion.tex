@@ -1,7 +1,7 @@
 \section{conclusion}
-The predicted direct correlation between the laser power and the trap constant could be observed. However, given the distance from the data to the best fit, the values for the slope coefficient is not of much use.\\
+The predicted direct proportionality between the laser power and the trap constant could be observed. However, given the distance from the data to the best fit, the values for the slope coefficient is not of much use.\\
 Rewriting the MATLAB script using Python was a partial success, the symmetry centre finding function and the subpixel interpolation function were successfully implemented in Python but the tracking function currently uses a slow and not very useful interpolation method which results in an undesirable offset and delay in the predicted symmetry centre. With a properly functioning interpolation function the python script would probably yield s similar result as the MATLAB script.\\
-Using the method described in the theory, the values for the semi-major and semi-minor axis of the covariance ellipse were found for both data sets. The values seemed to be exponentially decaying which is not surprising given the gaussian laser intensity profile. The difference between the values for the major and minor axis compared to the MATLAB script shows the advantage of calculation of the trap constant using the covariance matrix. For this method incorporates the shape and direction of the optical trap.\\
+Using the method described in the theory, the values for the semi-major and semi-minor axis of the covariance ellipse were found for both data sets. The values match the theoretical inverse proportionality with respect to the laser power. The difference between the values for the major and minor axis compared to the MATLAB script shows the advantage of calculation of the trap constant using the covariance matrix. For this method incorporates the shape and direction of the optical trap.\\
 
 \begin{comment}
 
