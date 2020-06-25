@@ -21,7 +21,7 @@
 	\caption{Both figures were taken from Wikipedia \cite{wikipedia}.}
 \end{wrapfigure}
 
-To understand the working principle of optical tweezers we consider a spherical dielectric particle, a bead, in a coherent light beam with a symmetrical intensity gradient such as in figure \ref{fig_optic_trap_1}. The light beam will exert a force on the bead in the direction of the highest light intensity of the gradient. To understand this, we need to consider two situations. For the situation in which the dimensions of the bead are much greater than the wavelength of the light we can apply straight forward ray optics. In the situation where the size of the bead is much smaller than the wavelength we can approximate the bead as a dipole that feels Lorentz force due to a gradient in the electric field. 
+To understand the working principle of optical tweezers we consider a spherical dielectric particle, a bead, in a coherent light beam with a symmetrical intensity gradient such as in figure \ref{fig_optic_trap_1}. The light beam will exert a force on the bead in the direction of the highest light intensity of the gradient. To understand this, we need to consider two situations. For the situation in which the dimensions of the bead are much greater than the wavelength of the light we can apply straight forward ray optics. In the situation where the size of the bead is much smaller than the wavelength we can approximate the bead as a dipole that feels Lorentz force due to a gradient in the electric field.
 For the situation where the dimensions of the bead are much larger than the wavelength of the light beam, we consider that photons can exert a radiation force on the bead. This force is a result of the momentum that photons carry  and will be directly proportional to the light intensity. We now consider two rays of light that reach the bead symmetrical with respect to its centre. Due to the bead's spherical symmetric shape, the light rays will be refracted by the dielectric particle at the same rate, but in opposite directions (see figure \ref{fig_optic_trap_1}). Both light rays will, given the change in direction of the light and the third law of Newton, exert a force on the bead. The light ray with the higher intensity will, however, exert a greater force. If the intensity gradient is greater in the centre of the light beam, such as in figure \ref{fig_optic_trap_1}, this would lead to a net force pointing in the direction of the symmetry axis of the light beam. This force would trap the bead to the centre on the beam. \
 In the case of a the beam of light being focussed such as in figure \ref{fig_optic_trap_2}, the bead would not only be trapped in the direction perpendicular to the beam axis, but also in the direction of the axis. This is also a result of the change of the refraction of light exerting a force on the bead (see figure \ref{fig_optic_trap_2}). However, to light scattering, the bead is in the axial direction trapped slight behind the waist of the light beam.\cite{shaevitz} \
 In the situation where the dimensions of the bead are much smaller of than the wavelength of the light beam, we approximate the bead as a perfect dipole. According to shaevitz (2006) , if we also consider the laser to have a Gaussian intensity profile in the plane perpendicular to propagation, the Lorentz Force is given by:
@@ -38,15 +38,15 @@ Where $ p = \alpha E $ is the dipole field, $\alpha $ is the polarizability, $E$
 \end{equation}
 
 This force is pointing towards the centre of the laser beam. \
-\ 
+\
 Most optical trapping and also the experiment in this report includes beads with the same order of magnitude dimensions as the wavelength of the light beam. The physics of such a system is complicated and somewhat in between the cases explained above. This comprehensive theory will not be discussed in this report. However, from the latter derivations we can conclude that the trapping force is directly proportional with the laser intensity. \
 
 \subsection{Trap constant derivation}
 \label{trap_constant}
 \
-According to Shaevitz (2006), 'for small motions of a bead near the center of an optical trap, the forces acting on the bead approximate a zero rest–length, linear spring at the trapping center.' Therefore, for small motions of the bead, the stored energy in the optical 'spring' is $1/2 k_{trap} \langle x^2 \rangle $ with $k_{trap}$ a constant defining the strength of the optical trap and $ \langle x^2 \rangle $ the variance in the motion. According to the equipartition theory, the energy of the Brownian motion of a particle is given by $\frac{1}{2} k_b T $ with $ k_b $ the Boltzmann constant and $T$ the temperature.\cite{shaevitz} Equating the two energies yields:
+According to Shaevitz (2006), 'for small motions of a bead near the centre of an optical trap, the forces acting on the bead approximate a zero rest–length, linear spring at the trapping centre.' Therefore, for small motions of the bead, the stored energy in the optical 'spring' is $1/2 k_{trap} \langle x^2 \rangle $ with $k_{trap}$ a constant defining the strength of the optical trap and $ \langle x^2 \rangle $ the variance in the motion. According to the equipartition theory, the energy of the Brownian motion of a particle is given by $\frac{1}{2} k_b T $ with $ k_b $ the Boltzmann constant and $T$ the temperature.\cite{shaevitz} Equating the two energies yields:
 
-\begin{equation} 
+\begin{equation}
 	\label{eq_k_trap}
 	k_{trap} = \frac{k_B T}{ \langle x^2 \rangle}
 \end{equation}
@@ -60,7 +60,7 @@ From this we can conclude that by following the position of the bead over time, 
     \label{fig_ellipse}
 \end{wrapfigure}
 
-In the latter definition of $k_{trap}$, the 3 dimensions of real life are not taken into account. In this report we will only consider the trap constants in the plane perpendicular to the propagation direction of the laser beam. This plane will in this report be addressed as the plane of interest, POI. For the POI we can consider two definitions for $k_{trap}$. We define $k_{trap,r}$ as the 'average' trap constant and is calculated using only the motion of the bead in the radial direction. $k_{trap,r}$ gives a good indication of the force in any arbitrary direction in the POI. It does, however, ignore the shape of the probability distribution of the bead. In the case where the potential well would be elongated such as in figure \ref{fig_ellipse}, the values for $ \langle x^2 \rangle $ and therefore also $k_{trap}$ can differ depending on the direction. We define the trap constant in an arbitrary direction as $k_{trap,i}$. Note that this is defined as a line in the POI which cuts the expectation value of the bead. To find the value for $k_{trap,i}$ we first realize that for realistic laser beams that are used for optical trapping, we expect a 2-dimensional gaussian intensity profile in the POI \cite{sheavitz}. The shape of this gaussian profile can be described by a 2 dimensional covariance matrix. The iso-contours and therefore also the variance for such 2-dimensional gaussians are ellipses with their centre at the expectation value \cite{chuong} (see figure \ref{fig_ellipse}. According to Rojas (2009), the eigenvectors of the covariance matrix point in the direction of the axis of an ellipse describing the variance in the POI. The largest of the two eigenvectors, $\vec{v}_1$, will point in the direction of the major axis and the smallest eigenvector, $\vec{v}_2$, in the direction of the minor axis. The magnitude of the semi-major axis and semi-minor axis, $a$ and $b$ respectively, are given by the eigenvalues corresponding to the eigenvectors.\cite{rojas} \
+In the latter definition of $k_{trap}$, the 3 dimensions of real life are not taken into account. In this report we will only consider the trap constants in the plane perpendicular to the propagation direction of the laser beam. This plane will in this report be addressed as the plane of interest, POI. For the POI we can consider two definitions for $k_{trap}$. We define $k_{trap,r}$ as the 'average' trap constant and is calculated using only the motion of the bead in the radial direction. $k_{trap,r}$ gives a good indication of the force in any arbitrary direction in the POI. It does, however, ignore the shape of the probability distribution of the bead. In the case where the potential well would be elongated such as in figure \ref{fig_ellipse}, the values for $ \langle x^2 \rangle $ and therefore also $k_{trap}$ can differ depending on the direction. We define the trap constant in an arbitrary direction as $k_{trap,i}$. Note that this is defined as a line in the POI which cuts the expectation value of the bead. To find the value for $k_{trap,i}$ we first realize that for realistic laser beams that are used for optical trapping, we expect a 2-dimensional gaussian intensity profile in the POI \cite{shaevitz}. The shape of this gaussian profile can be described by a 2 dimensional covariance matrix. The iso-contours and therefore also the variance for such 2-dimensional gaussians are ellipses with their centre at the expectation value \cite{chuong} (see figure \ref{fig_ellipse}. According to Rojas (2009), the eigenvectors of the covariance matrix point in the direction of the axis of an ellipse describing the variance in the POI. The largest of the two eigenvectors, $\vec{v}_1$, will point in the direction of the major axis and the smallest eigenvector, $\vec{v}_2$, in the direction of the minor axis. The magnitude of the semi-major axis and semi-minor axis, $a$ and $b$ respectively, are given by the eigenvalues corresponding to the eigenvectors.\cite{rojas} \
 In order to find the variance in any arbitrary direction in the POI,  $ \langle x_i^2 \rangle$, we use the formula for an ellipse in polar coordinates:
 \label{alternate_method}
 
@@ -69,7 +69,7 @@ In order to find the variance in any arbitrary direction in the POI,  $ \langle 
 \end{equation}
 
 Where $\theta$ corresponds to the angle of the direction of interest with respect to the major axis and the ellipse centre as origin. (see figure \ref{fig_ellipse}) \
-Note that the latter definition of the variance is different than just projecting each point on an axis and subsequently calculating the variance. The difference between the two methods is clearly visible in figure \ref{fig_ellipse} where $\langle x^2 \rangle _{real}$ is much smaller than $\langle x^2 \rangle _{proj}$. We can conclude from this, that when the position distribution is not symmetrical in the x- and y-direction, calculation of $k_{trap,x}$ or $k_{trap,y}$ without taking into account the covariance could give inaccurate results. Using equation \ref{eq_k_trap} with the value for $  \langle x_i^2 \rangle $ should yield better values for $k_{trap,i}$. 
+Note that the latter definition of the variance is different than just projecting each point on an axis and subsequently calculating the variance. The difference between the two methods is clearly visible in figure \ref{fig_ellipse} where $\langle x^2 \rangle _{real}$ is much smaller than $\langle x^2 \rangle _{proj}$. We can conclude from this, that when the position distribution is not symmetrical in the x- and y-direction, calculation of $k_{trap,x}$ or $k_{trap,y}$ without taking into account the covariance could give inaccurate results. Using equation \ref{eq_k_trap} with the value for $  \langle x_i^2 \rangle $ should yield better values for $k_{trap,i}$.
 
 
 \subsection{Error calculation}
@@ -87,31 +87,31 @@ Using the latter equation we find that the error in the average position, $u_{\b
 
 \begin{equation}
 	\label{eq_u_mean}
-	u_{\bar{x}} =  \frac{ \sqrt{ \sum_{i=1}^n u_{x_i}^2}}{n} 
+	u_{\bar{x}} =  \frac{ \sqrt{ \sum_{i=1}^n u_{x_i}^2}}{n}
 \end{equation}
 
 Since $ \langle x^2 \rangle $ is given by the average of the squared of the distance to the average position we find that the error in the variance, $u_{ \langle x^2 \rangle } $ is given by:
 
 \begin{equation}
 	\label{eq_u_var}
-	u_{ \langle x^2 \rangle }=  \sqrt{ \frac{ 4 \: \sum_{i=1}^n    \left( u_{\bar{x}}^2 + u_{x_i}^2 \right) \left( \bar{x} - x_i \right)^2}{n^2}} 
+	u_{ \langle x^2 \rangle }=  \sqrt{ \frac{ 4 \: \sum_{i=1}^n    \left( u_{\bar{x}}^2 + u_{x_i}^2 \right) \left( \bar{x} - x_i \right)^2}{n^2}}
 \end{equation}
 
 For large values of $n$ we can neglect the $ u_{\bar{x}}^2$ term. Therefore we find:
 
 \begin{equation}
 	\label{eq_u_var_approx}
-	u_{ \langle x^2 \rangle } \approx  \sqrt{ \frac{ 4 \: \sum_{i=1}^n    u_{x_i}^2  \left( \bar{x} - x_i \right)^2}{n^2}} 
+	u_{ \langle x^2 \rangle } \approx  \sqrt{ \frac{ 4 \: \sum_{i=1}^n    u_{x_i}^2  \left( \bar{x} - x_i \right)^2}{n^2}}
 \end{equation}
 
-If $ u_{x_i}$ is contant we can rewrite this as:
+If $ u_{x_i}$ is constant we can rewrite this as:
 
 \begin{equation}
+	u_{ \langle x^2 \rangle } \approx  \sqrt{  4 \:     u_{x_i}^2  \langle x^2 \rangle }
 	\label{eq_u_var_constant}
-	u_{ \langle x^2 \rangle } \approx  \sqrt{  4 \:     u_{x_i}^2  \langle x^2 \rangle } 
 \end{equation}
 
- 
+
 
 Using equation \ref{eq_k_trap} in equation \ref{eq_error} we find that the error in the trap constant, $u_{k_{trap}}$, is given by:
 
@@ -123,8 +123,8 @@ Using equation \ref{eq_k_trap} in equation \ref{eq_error} we find that the error
 In the case of a constant value of $ u_{x_i}$ we can use equation \ref{eq_u_var_constant} to find that:
 
 \begin{equation}
-	\label{eq_u_k_constant}
 	u_{k_{trap}} = 2 \: u_{x_i} k_B T  \langle x^2 \rangle ^{- \frac{3}{2}}
+	\label{eq_u_k_constant}
 \end{equation}
 
 Using equation \ref{eq_k_trap} we can rewrite this as:

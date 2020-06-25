@@ -29,7 +29,6 @@ $k_{trap,y}$     {[}$pN/nm${]}       & $8.29 \cdot 10^{-5}$ &$ 2.94\cdot 10^{-7}
 \label{tab:second-results}
 \end{table}
 
-We cannot calculate the exact value of the error since the MATLAB algorithm does not provide us with the locations and its error. However, if we estimate the error of the bead location to be $u_{xi} = \frac{l_pixel}{2}$ and we know that 1000 frames were used for the calculation of the trap constants we find from equation \ref{eq_u_k_consant} that $u_{k_{trap}} = l_pixel (k_B T)^{-\frac{1}{2}}  k_{trap} ^{\frac{3}{2}}$. 
 
 \vspace{-.5cm}
 \begin{minipage}{\linewidth}
@@ -54,18 +53,19 @@ We cannot calculate the exact value of the error since the MATLAB algorithm does
 
 \end{minipage}
 \\
+We cannot calculate the exact value of the error since the MATLAB algorithm does not provide us with the locations and its error. However, if we estimate the error of the bead location to be $u_{xi} = l_{pixel}/2$ and we know that 1000 frames were used for the calculation of the trap constants we find from equation \ref{eq_u_k_constant} that $u_{k_{trap}} = l_{pixel} (k_B T)^{\frac{1}{2}}  k_{trap} ^{\frac{3}{2}}$. However when these values are calculated we see an error between $0.1\%$ and $0.00001\%$ of that of the $k_{i}$ value, these values are lower then we believe they should be. We suspect that his is the case since the MATLAB algorithm confidently tracks a incorrect stationary artifact on the trap surface.\\
 
-The data shown above in tables \ref{tab:first-results} and \ref{tab:second-results} are plotted in figures \ref{fig:bead-plot} and \ref{fig:trap-plot} re\-spectively. In the plots the in\-divi\-dual data points and their cor\-responding error flags are shown as well as the least squares fit of these data points for the $k_x$, $k_y$ and $k_{tot}$ values. The fit of the $k_{tot}$ values is plotted on a secondary axis.\\
+The data shown above in tables \ref{tab:first-results} and \ref{tab:second-results} are plotted in figures \ref{fig:bead-plot} and \ref{fig:trap-plot} re\-spectively. In the plots the in\-divi\-dual data points and their cor\-responding error flags are shown as well as the least squares fit of these data points for the $k_x$ and $k_y$ values.\\
 The resulting values of $\alpha$ for the least squares fit to the function $k_{trap}= \alpha \cdot P$  are shown below in table \ref{tab:fit-results}.\\
 
 \vspace{-0.5cm}
 \begin{table}[h!]
     \centering
-    \begin{tabular}{|l|l|l|l|}
+    \begin{tabular}{|l|l|l|}
         \hline
-        coefficient for & $\alpha_x$ {[}$pN/(nm\cdot mW)${]} & $\alpha_y$ {[}$pN/(nm \cdot mW)${]} & $\alpha_{tot}$ {[}$pN/(nm \cdot mW)${]} \\ \hline
-        dataset 1       & $1.382\cdot 10^{-6}$          & $1.280 \cdot 10^{-6}$          & $1.740 \cdot 10^{-4}$              \\ \hline
-        dataset 2       & $1.478 \cdot 10^{-5}$         & $3.974 \cdot 10^{-6}$          & $1.551 \cdot 10^{-5}$              \\ \hline
+        coefficient for & $\alpha_x$ {[}$pN/(nm\cdot mW)${]} & $\alpha_y$ {[}$pN/(nm \cdot mW)${]}\\ \hline
+        dataset 1       & $1.382\cdot 10^{-6}$          & $1.280 \cdot 10^{-6}$\\ \hline
+        dataset 2       & $1.478 \cdot 10^{-5}$         & $3.974 \cdot 10^{-6}$\\ \hline
     \end{tabular}
     \caption{The results of the linear fits for the trap stiffness as a function of laser output power.}
     \label{tab:fit-results}
