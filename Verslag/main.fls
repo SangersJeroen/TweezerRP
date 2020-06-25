@@ -36,6 +36,16 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\stmaryrd\stmaryrd.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\stmaryrd\stmaryrd.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty
@@ -48,24 +58,49 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\relsize\relsize.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\relsize\relsize.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifpdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifpdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\mdframed.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\mdframed.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifluatex.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifluatex.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\iftex.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\iftex.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
@@ -102,20 +137,10 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifpdf.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifpdf.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\needspace\needspace.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\needspace\needspace.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
@@ -134,14 +159,6 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\pgf.revision.tex
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\pgf.revision.tex
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
@@ -156,10 +173,6 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.cod
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
@@ -222,12 +235,6 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\t
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\md-frame-1.mdf
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\md-frame-1.mdf
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty
@@ -304,6 +311,10 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\title.tex
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\title.tex
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Roman-tlf-t1.tfm
@@ -349,8 +360,26 @@ INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\theory.tex
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\theory.tex
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Roman-tlf-t1.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Bold-tlf-t1.tfm
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_unfocused.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_unfocused.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_unfocused.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_unfocused.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_unfocused.jpg
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Roman-tlf-t1.tfm
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_focused.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_focused.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_focused.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_focused.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_focused.jpg
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\xcharter\XCharter-Bold-tlf-t1.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Bold-tlf-t1--base.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\xcharter\XCharter-Roman-tlf-t1.vf
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Roman-tlf-t1--base.tfm
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\ellips.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\ellips.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\ellips.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\ellips.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\ellips.jpg
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\experimental_method.tex
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\experimental_method.tex
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\setup.png
@@ -406,6 +435,45 @@ INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-dataset2.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-dataset2.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-dataset2.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-dataset2.png
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\main.aux
 INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\xcharter\xch_uy5hgr.enc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\xcharter\XCharter-Bold.pfb
@@ -418,10 +486,14 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
