@@ -54,12 +54,12 @@ ax1.errorbar(bead_power, bead_y_stiff, yerr=bead_y_err, fmt='', label=r"$k_y$", 
 ax1.errorbar(bead_power, bead_x_stiff, yerr=bead_x_err, fmt='', label=r"$k_x$", marker=".", color='red')
 #ax1.errorbar(bead_power, bead_t_stiff, yerr=bead_t_err, fmt='', label=r"$k_{tot}$", marker=".", color='blue')
 
-Y_1 = fit_func(X_b, *param_b_y)
-Y_2 = fit_func(X_b, *param_b_x)
+#Y_1 = fit_func(X_b, *param_b_y)
+#Y_2 = fit_func(X_b, *param_b_x)
 #Y_3 = fit_func(np.linspace(0-0.5,40), *param_b_t)
 
-ax1.plot(X_b, fit_func(X_b, *param_b_y), linestyle='--', color='black')
-ax1.plot(X_b, fit_func(X_b, *param_b_x), linestyle='--', color='red')
+#ax1.plot(X_b, fit_func(X_b, *param_b_y), linestyle='--', color='black')
+#ax1.plot(X_b, fit_func(X_b, *param_b_x), linestyle='--', color='red')
 
 ax1.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
 ax1.set_xlabel(r'Beam output power [$mW$]')

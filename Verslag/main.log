@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.10)  4 JUL 2020 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.10)  7 JUL 2020 16:12
 entering extended mode
 **c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.tex
 (c:/Users/Gebruiker/Documents/TweezerRP/Verslag/main.tex
@@ -1435,15 +1435,15 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
 (Font)              scaled to size 20.74pt on input line 8.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
 (Font)              scaled to size 20.74pt on input line 8.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 21.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 22.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/stmaryrd\ustmry.fd") [1
 
 {C:/Users/Gebruiker/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\abstract.tex
@@ -1472,22 +1472,34 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
 <figures/Optical_trap_unfocused.jpg, id=19, 752.45824pt x 482.40225pt>
 File: figures/Optical_trap_unfocused.jpg Graphic file (type jpg)
 <use figures/Optical_trap_unfocused.jpg>
-Package pdftex.def Info: figures/Optical_trap_unfocused.jpg  used on input line 11.
-(pdftex.def)             Requested size: 127.47105pt x 81.72021pt.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 12.
+Package pdftex.def Info: figures/Optical_trap_unfocused.jpg  used on input line 19.
+(pdftex.def)             Requested size: 204.85846pt x 131.33238pt.
 <figures/Optical_trap_focused.jpg, id=20, 752.45824pt x 482.40225pt>
 File: figures/Optical_trap_focused.jpg Graphic file (type jpg)
 <use figures/Optical_trap_focused.jpg>
-Package pdftex.def Info: figures/Optical_trap_focused.jpg  used on input line 17.
-(pdftex.def)             Requested size: 127.47105pt x 81.72021pt.
+Package pdftex.def Info: figures/Optical_trap_focused.jpg  used on input line 29.
+(pdftex.def)             Requested size: 204.85846pt x 131.33238pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 14--36
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--36
+
+ []
+
 [2 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/Optical_trap_unfocused.jpg> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/Optical_trap_focused.jpg>]
-<figures/ellips.jpg, id=30, 409.93488pt x 272.6826pt>
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+<figures/ellips.jpg, id=24, 409.93488pt x 272.6826pt>
 File: figures/ellips.jpg Graphic file (type jpg)
 <use figures/ellips.jpg>
-Package pdftex.def Info: figures/ellips.jpg  used on input line 58.
+Package pdftex.def Info: figures/ellips.jpg  used on input line 66.
 (pdftex.def)             Requested size: 204.85846pt x 136.27022pt.
- [3 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/ellips.jpg>]) [4] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\experimental_method.tex
+[3 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/ellips.jpg>]) [4] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\experimental_method.tex
 <figures/setup.png, id=41, 850.377pt x 398.6895pt>
 File: figures/setup.png Graphic file (type png)
 <use figures/setup.png>
@@ -1498,65 +1510,93 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<figures/beam.png, id=47, 342.19846pt x 269.92845pt>
+<figures/beam.png, id=47, 346.896pt x 267.76035pt>
 File: figures/beam.png Graphic file (type png)
 <use figures/beam.png>
 Package pdftex.def Info: figures/beam.png  used on input line 39.
-(pdftex.def)             Requested size: 204.85846pt x 161.59586pt.
+(pdftex.def)             Requested size: 204.85846pt x 158.1243pt.
 <figures/trap.png, id=48, 341.47575pt x 267.76035pt>
 File: figures/trap.png Graphic file (type png)
 <use figures/trap.png>
 Package pdftex.def Info: figures/trap.png  used on input line 48.
 (pdftex.def)             Requested size: 204.85846pt x 160.63701pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 34--57
+Overfull \hbox (15.0pt too wide) in paragraph at lines 35--56
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--57
+Underfull \hbox (badness 10000) in paragraph at lines 35--56
+
+ []
+
+Excluding 'comment' comment. [6 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/beam.png> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/trap.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
-
- []
-
-[6 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/beam.png> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/trap.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 <figures/axis-dataset2.png, id=52, 433.62pt x 289.08pt>
 File: figures/axis-dataset2.png Graphic file (type png)
 <use figures/axis-dataset2.png>
-Package pdftex.def Info: figures/axis-dataset2.png  used on input line 87.
+Package pdftex.def Info: figures/axis-dataset2.png  used on input line 94.
 (pdftex.def)             Requested size: 204.85846pt x 136.57336pt.
 <figures/axis-dataset1.png, id=53, 433.62pt x 289.08pt>
 File: figures/axis-dataset1.png Graphic file (type png)
 <use figures/axis-dataset1.png>
-Package pdftex.def Info: figures/axis-dataset1.png  used on input line 96.
+Package pdftex.def Info: figures/axis-dataset1.png  used on input line 103.
 (pdftex.def)             Requested size: 204.85846pt x 136.57336pt.
-)
-Overfull \hbox (15.0pt too wide) in paragraph at lines 82--51
-[]$[]$
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 89--110
+[]$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--51
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 113.
 
+
+Overfull \hbox (18.14609pt too wide) in paragraph at lines 116--123
+[][] 
  []
 
-[7
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 126.
+
+
+Overfull \hbox (18.14609pt too wide) in paragraph at lines 129--136
+[][] 
+ []
+
+) [7
 
  <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/axis-dataset2.png> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/axis-dataset1.png>] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\discussion.tex
-<figures/ellipse_inverse.png, id=59, 534.19576pt x 486.01575pt>
+<figures/single_frame.jpg, id=59, 433.62pt x 289.08pt>
+File: figures/single_frame.jpg Graphic file (type jpg)
+<use figures/single_frame.jpg>
+Package pdftex.def Info: figures/single_frame.jpg  used on input line 5.
+(pdftex.def)             Requested size: 159.33821pt x 106.2257pt.
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 11.
+
+<figures/ellipse_inverse.png, id=60, 534.19576pt x 486.01575pt>
 File: figures/ellipse_inverse.png Graphic file (type png)
 <use figures/ellipse_inverse.png>
-Package pdftex.def Info: figures/ellipse_inverse.png  used on input line 5.
+Package pdftex.def Info: figures/ellipse_inverse.png  used on input line 13.
 (pdftex.def)             Requested size: 159.33821pt x 144.96783pt.
-) [8 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/ellipse_inverse.png>] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\conclusion.tex
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 16.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 18.
+
+) [8 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/single_frame.jpg> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/ellipse_inverse.png>] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
@@ -1565,95 +1605,102 @@ Excluding 'comment' comment.) [9] (c:/Users\Gebruiker\Documents\TweezerRP\Versla
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 4.
 ) [10] (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\appendix.tex
-<figures/spread-dataset1.png, id=72, 433.62pt x 289.08pt>
+<figures/spread-dataset1.png, id=73, 433.62pt x 289.08pt>
 File: figures/spread-dataset1.png Graphic file (type png)
 <use figures/spread-dataset1.png>
 Package pdftex.def Info: figures/spread-dataset1.png  used on input line 6.
 (pdftex.def)             Requested size: 364.19667pt x 242.80789pt.
-<figures/spread-zoom-dataset1.png, id=73, 433.62pt x 289.08pt>
-File: figures/spread-zoom-dataset1.png Graphic file (type png)
-<use figures/spread-zoom-dataset1.png>
-Package pdftex.def Info: figures/spread-zoom-dataset1.png  used on input line 11.
-(pdftex.def)             Requested size: 364.19667pt x 242.80789pt.
 <figures/spread-dataset2.png, id=74, 433.62pt x 289.08pt>
 File: figures/spread-dataset2.png Graphic file (type png)
 <use figures/spread-dataset2.png>
-Package pdftex.def Info: figures/spread-dataset2.png  used on input line 16.
+Package pdftex.def Info: figures/spread-dataset2.png  used on input line 11.
 (pdftex.def)             Requested size: 364.19667pt x 242.80789pt.
- [11 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-dataset1.png> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-zoom-dataset1.png>] [12 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-dataset2.png>]
-<python_algorithmes_uitleg.pdf, id=84, 614.295pt x 794.97pt>
-File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
-<use python_algorithmes_uitleg.pdf>
-Package pdftex.def Info: python_algorithmes_uitleg.pdf  used on input line 20.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
-<use python_algorithmes_uitleg.pdf>
-Package pdftex.def Info: python_algorithmes_uitleg.pdf  used on input line 20.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<python_algorithmes_uitleg.pdf, id=87, page=1, 614.295pt x 794.97pt>
-File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
-<use python_algorithmes_uitleg.pdf, page 1>
-Package pdftex.def Info: python_algorithmes_uitleg.pdf , page1 used on input line 20.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
-<use python_algorithmes_uitleg.pdf, page 1>
-Package pdftex.def Info: python_algorithmes_uitleg.pdf , page1 used on input line 20.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
-<use python_algorithmes_uitleg.pdf, page 1>
-Package pdftex.def Info: python_algorithmes_uitleg.pdf , page1 used on input line 20.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
-<use python_algorithmes_uitleg.pdf, page 1>
-Package pdftex.def Info: python_algorithmes_uitleg.pdf , page1 used on input line 20.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
-<use python_algorithmes_uitleg.pdf, page 1>
-Package pdftex.def Info: python_algorithmes_uitleg.pdf , page1 used on input line 20.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [13
+ [11 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-dataset1.png> <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/figures/spread-dataset2.png>]
+LaTeX Font Info:    Trying to load font information for TS1+XCharter-TLF on input line 24.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/xcharter\ts1xcharter-tlf.fd"
+File: TS1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for TS1/XCharter-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 24.
 
- <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/python_algorithmes_uitleg.pdf>]
+Overfull \hbox (300.76358pt too wide) in paragraph at lines 32--35
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+<python_algorithmes_uitleg.pdf, id=80, 614.295pt x 794.97pt>
+File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
+<use python_algorithmes_uitleg.pdf>
+Package pdftex.def Info: python_algorithmes_uitleg.pdf  used on input line 47.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
+<use python_algorithmes_uitleg.pdf>
+Package pdftex.def Info: python_algorithmes_uitleg.pdf  used on input line 47.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<python_algorithmes_uitleg.pdf, id=83, page=1, 614.295pt x 794.97pt>
+File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
+<use python_algorithmes_uitleg.pdf, page 1>
+Package pdftex.def Info: python_algorithmes_uitleg.pdf , page1 used on input line 47.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
+<use python_algorithmes_uitleg.pdf, page 1>
+Package pdftex.def Info: python_algorithmes_uitleg.pdf , page1 used on input line 47.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[12
+
+]
+File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
+<use python_algorithmes_uitleg.pdf, page 1>
+Package pdftex.def Info: python_algorithmes_uitleg.pdf , page1 used on input line 47.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
+<use python_algorithmes_uitleg.pdf, page 1>
+Package pdftex.def Info: python_algorithmes_uitleg.pdf , page1 used on input line 47.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
+<use python_algorithmes_uitleg.pdf, page 1>
+Package pdftex.def Info: python_algorithmes_uitleg.pdf , page1 used on input line 47.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [13 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/python_algorithmes_uitleg.pdf>]
 <python_algorithmes_uitleg.pdf, id=113, page=2, 614.295pt x 794.97pt>
 File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
 <use python_algorithmes_uitleg.pdf, page 2>
-Package pdftex.def Info: python_algorithmes_uitleg.pdf , page2 used on input line 20.
+Package pdftex.def Info: python_algorithmes_uitleg.pdf , page2 used on input line 47.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
 <use python_algorithmes_uitleg.pdf, page 2>
-Package pdftex.def Info: python_algorithmes_uitleg.pdf , page2 used on input line 20.
+Package pdftex.def Info: python_algorithmes_uitleg.pdf , page2 used on input line 47.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
 <use python_algorithmes_uitleg.pdf, page 2>
-Package pdftex.def Info: python_algorithmes_uitleg.pdf , page2 used on input line 20.
+Package pdftex.def Info: python_algorithmes_uitleg.pdf , page2 used on input line 47.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [14 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/python_algorithmes_uitleg.pdf>]
 <python_algorithmes_uitleg.pdf, id=117, page=3, 614.295pt x 794.97pt>
 File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
 <use python_algorithmes_uitleg.pdf, page 3>
-Package pdftex.def Info: python_algorithmes_uitleg.pdf , page3 used on input line 20.
+Package pdftex.def Info: python_algorithmes_uitleg.pdf , page3 used on input line 47.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
 <use python_algorithmes_uitleg.pdf, page 3>
-Package pdftex.def Info: python_algorithmes_uitleg.pdf , page3 used on input line 20.
+Package pdftex.def Info: python_algorithmes_uitleg.pdf , page3 used on input line 47.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: python_algorithmes_uitleg.pdf Graphic file (type pdf)
 <use python_algorithmes_uitleg.pdf, page 3>
-Package pdftex.def Info: python_algorithmes_uitleg.pdf , page3 used on input line 20.
+Package pdftex.def Info: python_algorithmes_uitleg.pdf , page3 used on input line 47.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [15 <c:/Users/Gebruiker/Documents/TweezerRP/Verslag/python_algorithmes_uitleg.pdf>]) (c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.aux) ) 
 Here is how much of TeX's memory you used:
- 31954 strings out of 492449
- 592762 string characters out of 3129676
- 783256 words of memory out of 3000000
- 35788 multiletter control sequences out of 15000+200000
- 599338 words of font info for 53 fonts, out of 3000000 for 9000
+ 32390 strings out of 492449
+ 596713 string characters out of 3129676
+ 791256 words of memory out of 3000000
+ 36220 multiletter control sequences out of 15000+200000
+ 593396 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,18n,79p,2079b,538s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/xcharter/xch_uy5hgr.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Bold.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Italic.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.pdf (18 pages, 1465341 bytes).
+ 76i,18n,79p,2094b,1479s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/xcharter/xch_q7u3cc.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/xcharter/xch_uy5hgr.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Bold.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Italic.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on c:/Users\Gebruiker\Documents\TweezerRP\Verslag\main.pdf (18 pages, 1305013 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
+ 162 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -365,7 +365,6 @@ INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_unfocu
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_unfocused.jpg
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_unfocused.jpg
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_unfocused.jpg
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Roman-tlf-t1.tfm
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_focused.jpg
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_focused.jpg
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_focused.jpg
@@ -373,8 +372,6 @@ INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_focuse
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\Optical_trap_focused.jpg
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\xcharter\XCharter-Bold-tlf-t1.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Bold-tlf-t1--base.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\xcharter\XCharter-Roman-tlf-t1.vf
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Roman-tlf-t1--base.tfm
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\ellips.jpg
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\ellips.jpg
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\ellips.jpg
@@ -411,6 +408,11 @@ INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\axis-dataset1.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\axis-dataset1.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\discussion.tex
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\discussion.tex
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\single_frame.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\single_frame.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\single_frame.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\single_frame.jpg
+INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\single_frame.jpg
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\ellipse_inverse.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\ellipse_inverse.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\ellipse_inverse.png
@@ -430,16 +432,14 @@ INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-dataset1.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-dataset1.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-dataset1.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-dataset1.png
-INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-zoom-dataset1.png
-INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-zoom-dataset1.png
-INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-zoom-dataset1.png
-INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-zoom-dataset1.png
-INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-zoom-dataset1.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-dataset2.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-dataset2.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-dataset2.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-dataset2.png
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\figures\spread-dataset2.png
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcharter\ts1xcharter-tlf.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcharter\ts1xcharter-tlf.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Roman-tlf-ts1.tfm
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
@@ -457,6 +457,8 @@ INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.p
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
+INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\xcharter\XCharter-Roman-tlf-ts1.vf
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\xcharter\XCharter-Roman-tlf-ts1--base.tfm
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
@@ -480,6 +482,7 @@ INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.p
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\python_algorithmes_uitleg.pdf
 INPUT c:\Users\Gebruiker\Documents\TweezerRP\Verslag\main.aux
+INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\xcharter\xch_q7u3cc.enc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\xcharter\xch_uy5hgr.enc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\xcharter\XCharter-Bold.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\xcharter\XCharter-Bold.pfb

@@ -1,32 +1,38 @@
 \section{Theory}
 
-The basic principles of optical tweezers and the theory for further calculations is described in this section.\\
+The basic principles of optical tweezers and the theory for further calculations are described in this section.\\
 
 \subsection{Optical trapping}
 
-To understand the working principle of optical tweezers we consider a spherical dielectric particle, a bead, in a coherent light beam with a symmetrical intensity gradient such as in figure \ref{fig_optic_trap_1}. The light beam will exert a force on the bead in the direction of the highest light intensity of the gradient. To understand this, we need to consider two situations. 
+To understand the working principle of optical tweezers we consider a spherical dielectric particle, a bead, in a coherent light beam with a symmetrical intensity gradient such as in figure \ref{fig_optic_trap_1}. The light beam will exert a force on the bead in the direction of the highest light intensity of the gradient. To understand this, we need to consider two situations.
 
 For the situation in which the dimensions of the bead are much greater than the wavelength of the light we can apply straight forward ray optics. In the situation where the size of the bead is much smaller than the wavelength we can approximate the bead as a dipole that feels Lorentz force due to a gradient in the electric field.
 
 For the situation where the dimensions of the bead are much larger than the wavelength of the light beam, we consider that photons can exert a radiation force on the bead. This force is a result of the momentum that photons carry  and will be directly proportional to the light intensity. We now consider two rays of light that reach the bead symmetrical with respect to its centre. Due to the bead's spherical symmetric shape, the light rays will be refracted by the dielectric particle at the same rate, but in opposite directions (see figure \ref{fig_optic_trap_1}). Both light rays will, given the change in direction of the light and the third law of Newton, exert a force on the bead. The light ray with the higher intensity will, however, exert a larger force. If the intensity gradient is larger in the centre of the light beam, such as in figure \ref{fig_optic_trap_1}, this would lead to a net force pointing in the direction of the symmetry axis of the light beam. This force would trap the bead to the optical axis.
-In the case of a beam of light being focussed such as in figure \ref{fig_optic_trap_2}, the bead would not only be trapped in the direction perpendicular to the beam axis, but also in the direction of the axis. This is also a result of the change of the refraction of light exerting a force on the bead (see figure \ref{fig_optic_trap_2}). However, to light scattering, the bead is in the axial direction trapped slight behind the waist of the light beam.\cite{shaevitz} 
+In the case of a beam of light being focussed such as in figure \ref{fig_optic_trap_2}, the bead would not only be trapped in the direction perpendicular to the beam axis, but also in the direction of the axis. This is also a result of the change of the refraction of light exerting a force on the bead (see figure \ref{fig_optic_trap_2}). However, to light scattering, the bead is in the axial direction trapped slight behind the waist of the light beam.\cite{shaevitz}
 
-\begin{figure}[h!]
-    \begin{subfigure}{.45\textwidth}
-    	\centering
-    	\includegraphics[width=0.9\linewidth,keepaspectratio]{figures/Optical_trap_unfocused.jpg}
-    	\caption{ Schematic diagram of the ray optics explanation for optical trapping (unfocused laser). The intensity profile of the light beam is symmetric around the centre. When the bead is displaced from the beam center (right image), the net force is towards the centre due to a larger momentum change of more intense light in closer to the centre. The net force is zero in the horizontal direction when the bead is placed in the centre of the beam. }
-    	\label{fig_optic_trap_1}
-	\end{subfigure} %
-	\hfill
-	\begin{subfigure}{0.45\textwidth}
-		\centering
-		\includegraphics[width=0.9\linewidth,keepaspectratio]{figures/Optical_trap_focused.jpg}
-    	\caption{Schematic diagram of the ray optics explanation for optical trapping (focused laser). The light beam is now focussed. Due to the angle of incoming light, the momentum change of the light causes a net force points towards the focus. The equilibrium position is slightly behind the focus to compensate for the light scattering force. }
-    	\label{fig_optic_trap_2}
-	\end{subfigure}
-	\caption{Both figures were taken from Wikipedia \cite{wikipedia}.}
-\end{figure}
+\begin{minipage}{\linewidth}
+    \centering
+    \begin{minipage}[l]{0.45\linewidth}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\linewidth]{figures/Optical_trap_unfocused.jpg}
+            \caption{Schematic diagram of the ray optics explanation for optical trapping (unfocused laser). The intensity profile of the light beam is symmetric around the centre. When the bead is displaced from the beam center (right image), the net force is towards the centre due to a larger momentum change of more intense light in closer to the centre. The net force is zero in the horizontal direction when the bead is placed in the centre of the beam.\\}
+            \label{fig_optic_trap_1}
+        \end{figure}
+    \end{minipage}
+    \hspace{0.05\linewidth}
+    \begin{minipage}[r]{0.45\linewidth}
+        \begin{figure}[H]
+			\centering
+			\vspace{-0.9cm}
+            \includegraphics[width=\linewidth]{figures/Optical_trap_focused.jpg}
+            \caption{Schematic diagram of the ray optics explanation for optical trapping (focused laser). The light beam is now focussed. Due to the angle of incoming light, the momentum change of the light causes a net force points towards the focus. The equilibrium position is slightly behind the focus to compensate for the light scattering force.\\ }
+            \label{fig_optic_trap_2}
+		\end{figure}
+    \end{minipage}
+\captionof{figure}{Both figures were taken from Wikipedia \cite{wikipedia}.}
+\end{minipage}\\
 
 In the situation where the dimensions of the bead are much smaller of than the wavelength of the light beam, we approximate the bead as a perfect dipole. According to Shaevitz (2006) , if we also consider the laser to have a Gaussian intensity profile in the plane perpendicular to propagation, the Lorentz Force is given by:
 
@@ -41,11 +47,11 @@ Where $ p = \alpha E $ is the dipole field, $\alpha $ is the polarizability, $E$
 	\big \langle F \big \rangle  = \frac{ \alpha }{2} \nabla \big \langle E^2 \big \rangle
 \end{equation}
 
-Most optical trapping and also the experiment in this report includes beads with the same order of magnitude dimensions as the wavelength of the light beam. The physics of such a system is complicated and somewhat in between the cases explained above. This comprehensive theory will not be discussed in this report. However, from the latter derivations we can conclude that the trapping force is directly proportional with the laser intensity. \
+Most optical trapping and also the experiment in this report includes beads with the same order of magnitude dimensions as the wavelength of the light beam. The physics of such a system is complicated and somewhat in between the cases explained above. This comprehensive theory will not be discussed in this report. However, from the latter derivations we can conclude that the trapping force is directly proportional with the laser intensity. \\
 
 \subsection{Trap constant derivation}
 \label{trap_constant}
-\
+
 According to Shaevitz (2006), 'for small motions of a bead near the centre of an optical trap, the forces acting on the bead approximate a zero rest–length, linear spring at the trapping centre.' Therefore, for small motions of the bead, the stored energy in the optical 'spring' is $1/2 k_{trap} \langle x^2 \rangle $ with $k_{trap}$ a constant defining the strength of the optical trap and $ \langle x^2 \rangle $ the variance in the motion. According to the equipartition theory, the energy of the Brownian motion of a particle is given by $\frac{1}{2} k_b T $ with $ k_b $ the Boltzmann constant and $T$ the temperature.\cite{shaevitz} Equating the two energies yields:
 
 \begin{equation}
@@ -53,9 +59,7 @@ According to Shaevitz (2006), 'for small motions of a bead near the centre of an
 	k_{trap} = \frac{k_B T}{ \langle x^2 \rangle}
 \end{equation}
 
-From this we can conclude that by following the position of the bead over time, it is possible to find the the value of $k_{trap}$. 
-
-\\
+From this we can conclude that by following the position of the bead over time, it is possible to find the the value of $k_{trap}$.
 
 \begin{wrapfigure}{r}{0.5\textwidth}
     \centering
@@ -65,7 +69,7 @@ From this we can conclude that by following the position of the bead over time, 
 \end{wrapfigure}
 
 
-In the latter definition of $k_{trap}$, the 3 dimensions of real life are not taken into account. For the experiments in this report we only consider 2-dimensional images in the plane perpendicular to the propagation direction of the laser beam. This plane will in this report be addressed as the plane of interest, POI. For the POI we can consider two definitions for $k_{trap}$. We define $k_{trap,r}$ as the 'average' trap constant and is calculated using only the motion of the bead in the radial direction. $k_{trap,r}$ gives a good indication of the force in any arbitrary direction in the POI. It does, however, ignore the shape of the probability distribution of the bead. In the case where the potential well would be elongated such as in figure \ref{fig_ellipse}, the values for $ \langle x^2 \rangle $ and therefore also $k_{trap}$ can differ depending on the direction. We define the trap constant in an arbitrary direction as $k_{trap,i}$. Note that this is defined as a line in the POI which cuts the expectation value of the bead. To find the value for $k_{trap,i}$ we first realize that for realistic laser beams that are used for optical trapping, we expect a 2-dimensional gaussian intensity profile in the POI \cite{shaevitz}. The shape of this gaussian profile can be described by a 2 dimensional covariance matrix. The iso-contours and therefore also the variance for such 2-dimensional gaussians are ellipses with their centre at the expectation value \cite{chuong} (see figure \ref{fig_ellipse}. According to Rojas (2009), the eigenvectors of the covariance matrix point in the direction of the axis of an ellipse describing the variance in the POI. The largest of the two eigenvectors, $\vec{v}_1$, will point in the direction of the major axis and the smallest eigenvector, $\vec{v}_2$, in the direction of the minor axis. The magnitude of the semi-major axis and semi-minor axis, $a$ and $b$ respectively, are given by the eigenvalues corresponding to the eigenvectors.\cite{rojas} 
+In the latter definition of $k_{trap}$, the 3 dimensions of real life are not taken into account. For the experiments in this report we only consider 2-dimensional images in the plane perpendicular to the propagation direction of the laser beam. This plane will in this report be addressed as the plane of interest, POI. For the POI we can consider two definitions for $k_{trap}$. We define $k_{trap,r}$ as the 'average' trap constant and is calculated using only the motion of the bead in the radial direction. $k_{trap,r}$ gives a good indication of the force in any arbitrary direction in the POI. It does, however, ignore the shape of the probability distribution of the bead. In the case where the potential well would be elongated such as in figure \ref{fig_ellipse}, the values for $ \langle x^2 \rangle $ and therefore also $k_{trap}$ can differ depending on the direction. We define the trap constant in an arbitrary direction as $k_{trap,i}$. Note that this is defined as a line in the POI which cuts the expectation value of the bead. To find the value for $k_{trap,i}$ we first realize that for realistic laser beams that are used for optical trapping, we expect a 2-dimensional gaussian intensity profile in the POI \cite{shaevitz}. The shape of this gaussian profile can be described by a 2 dimensional covariance matrix. The iso-contours and therefore also the variance for such 2-dimensional gaussians are ellipses with their centre at the expectation value \cite{chuong} (see figure \ref{fig_ellipse}. According to Rojas (2009), the eigenvectors of the covariance matrix point in the direction of the axis of an ellipse describing the variance in the POI. The largest of the two eigenvectors, $\vec{v}_1$, will point in the direction of the major axis and the smallest eigenvector, $\vec{v}_2$, in the direction of the minor axis. The magnitude of the semi-major axis and semi-minor axis, $a$ and $b$ respectively, are given by the eigenvalues corresponding to the eigenvectors.\cite{rojas}
 
 In order to find the variance in any arbitrary direction in the POI,  $ \langle x_i^2 \rangle$, we use the formula for an ellipse in polar coordinates:
 \label{alternate_method}

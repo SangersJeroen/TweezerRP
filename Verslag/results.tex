@@ -29,7 +29,7 @@ $k_{trap,y}$     {[}$pN/nm${]}       & $8.29 \cdot 10^{-5}$ &$ 2.94\cdot 10^{-7}
 \label{tab:second-results}
 \end{table}
 
-We cannot calculate the exact value of the error since the MATLAB algorithm does not provide us with the locations and its error. However, if we estimate the error of the bead location to be $u_{xi} = l_{pixel}/2$ and we know that 1000 frames were used for the calculation of the trap constants we find from equation \ref{eq_u_k_constant} that $u_{k_{trap}} = l_{pixel} (k_B T)^{\frac{1}{2}}  k_{trap} ^{\frac{3}{2}}$. However when these values are calculated we see an error between $0.1\%$ and $0.00001\%$ of that of the $k_{i}$ value, these values are lower then we believe they should be. We suspect that this is the case since the MATLAB algorithm confidently tracks a incorrect stationary artifact on the trap surface.
+We cannot calculate the exact value of the error since the MATLAB algorithm does not provide us with the locations and its error. However, if we estimate the error of the bead location to be $u_{xi} = l_{pixel}/2$ and we know that 1000 frames were used for the calculation of the trap constants we find from equation \ref{eq_u_k_constant} that $u_{k_{trap}} = l_{pixel} (k_B T)^{\frac{1}{2}}  k_{trap} ^{\frac{3}{2}}$. However when these values are calculated we see an error between $0.1\%$ and $0.00001\%$ of that of the $k_{i}$ value, these values are lower then we believe they should be. We suspect that this is the case since the MATLAB algorithm confidently tracks a incorrect stationary artefact on the trap surface.
 
 
 \begin{minipage}{\linewidth}[h!]
@@ -60,7 +60,7 @@ The corresponding values for the correlation constants are $ \alpha_x = 1.5 \; \
 
 \begin{comment}
 
-The resulting values of $\alpha$ for the least squares fit to the function $k_{trap}= \alpha \cdot P$  are shown below in table \ref{tab:fit-results}. 
+The resulting values of $\alpha$ for the least squares fit to the function $k_{trap}= \alpha \cdot P$  are shown below in table \ref{tab:fit-results}.
 
 \vspace{-0.5cm}
 \begin{table}[h!]
@@ -82,9 +82,9 @@ The resulting values of $\alpha$ for the least squares fit to the function $k_{t
 \label{results}
 During this practical we were also tasked with rewriting a MATLAB script in to Python. The piece of script we needed to rewrite was the function that tracks the centre of the bead in the image, this function was comprised of interpolation method and a method that found the symmetry centre of the bead using Fourier transforms. The second part was easily implemented in Python as it was mostly just finding the right Python functions that were equivalent to their MATLAB counterparts. The interpolation function was a lot harder to implement in Python since most of the existing Python interpolation functions did not have the same functionality. The documentation of this part of the practical can be found in the appendix\\
 
-As outlined in the section \ref{trap_constant} a method for deriving the trap constants was proposed that differs from the one from the MATLAB script. This method was implemented in a second different python script to try and show its usefulness. This python script can be found in the appendix.\
-\
- The result speaks for itself, it shows a clear connection between the laser output power and the length of the semi-major and semi-minor axis of the ellipses that encircle the points describing the symmetry centres of the beads. The points were fitted with a function with shape $L_{axis}=\frac{\beta}{P}+\gamma$, this seems to fit well as can be seen in figure \ref{fig:spread-bead-plot} \& \ref{fig:spread-trap-plot}. This suggests that the theoretical inverse proportionality between the $\langle x^2 \rangle$ and the laser power is correct. In the appendix three more plots showing the spread can be seen.
+As outlined in the section \ref{trap_constant} a method for deriving the trap constants was proposed that differs from the one from the MATLAB script. This method was implemented in a second different python script to try and show its usefulness. This python script can be found in the appendix.\\
+
+The result speaks for itself, it shows a clear connection between the laser output power and the length of the semi-major and semi-minor axis of the ellipses that encircle the points describing the symmetry centres of the beads. The points were fitted with a function with shape $L_{axis}=\frac{\beta}{P}+\gamma$, this seems to fit well as can be seen in figure \ref{fig:spread-bead-plot} \& \ref{fig:spread-trap-plot}. This suggests that the theoretical inverse proportionality between the $\langle x^2 \rangle$ and the laser power is correct. The data corresponding to these plots are shown in table \ref{tab:axis-results-one} and in table \ref{tab:axis-results-two}. In the appendix three more plots showing the spread of the centres of mass can be seen.
 
 \begin{minipage}{\linewidth}
     \centering
@@ -108,4 +108,29 @@ As outlined in the section \ref{trap_constant} a method for deriving the trap co
 
 \end{minipage}
 
-The values for $a$ and $b$ were acquired using the Trackpy python function. Given the values and the accuracy of the fitted lines indicates that the Trackpy function performs well for particle tracking. The difference between figure \ref{fig:bead-plot}, not showing any correlation, and figure \ref{fig:spread-bead-plot}, showing the theoretical correlation, can be explained by better performance of the Trackpy function compared to the MATLAB script for the first dataset. 
+The values for semi-major- and semi-minor-axes were acquired using the Trackpy python function. Given the values and the accuracy of the fitted lines indicates that the Trackpy function performs well for particle tracking. The difference between figure \ref{fig:bead-plot}, not showing any correlation, and figure \ref{fig:spread-bead-plot}, showing the theoretical correlation, can be explained by better performance of the Trackpy function compared to the MATLAB script for the first dataset.
+
+\begin{table}[]
+\caption{Resulting Axis lengths of dataset 1}
+\label{tab:axis-results-one}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{7}{|l|}{Dataset 1}                                                                                         \\ \hline
+Laser power output [$mW$] & 0                                                    & 10   & 20   & 30   & 40   & 40   \\ \hline
+Semi-major-axes [$nm$]   & $8.69 \cdot 10^{-4}$ & $3.88\cdot 10^{-4}$ & $2.41\cdot 10^{-5}$ & $2.50\cdot 10^{-5}$ & $3.36\cdot 10^{-6}$ & $4.73\cdot 10^{-6}$ \\ \hline
+Semi-minor-axis [$nm$]   & $5.66 \cdot 10^{-5}$ & $9.94\cdot 10^{-5}$ & $1.19\cdot 10^{-5}$ & $7.16\cdot 10^{-6}$ & $2.93\cdot 10^{-6}$ & $3.97\cdot 10^{-6}$ \\ \hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[]
+\caption{Resulting Axis lengths of dataset 1}
+\label{tab:axis-results-two}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+    \hline
+    \multicolumn{7}{|l|}{Dataset 2}                                                                                         \\ \hline
+    Laser power output [$mW$] & 0 &5 & 10   & 20   & 30   & 40\\ \hline
+    Semi-major-axes [$nm$]   & $9.67 \cdot 10^{-4}$ & $1.22\cdot 10^{-5}$ & $3.02\cdot 10^{-6}$ & $1.86\cdot 10^{-6}$ & $1.32\cdot 10^{-6}$ & $4.73\cdot 10^{-6}$ \\ \hline
+    Semi-minor-axis [$nm$]   & $1.24 \cdot 10^{-5}$ & $1.90\cdot 10^{-6}$ & $4.48\cdot 10^{-7}$ & $2.71\cdot 10^{-7}$ & $1.45\cdot 10^{-7}$ & $2.89\cdot 10^{-6}$ \\ \hline
+\end{tabular}
+\end{table}
